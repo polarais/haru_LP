@@ -1,5 +1,6 @@
-@import "tailwindcss";
-@custom-variant dark (&:is(.dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Image Layout - 연속된 사진들만 한 줄에 최대 3장까지 배치 */
 img.image-grid-item {
