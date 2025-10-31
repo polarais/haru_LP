@@ -518,10 +518,10 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
   const t = translations[currentLanguage]
   
   const languages = [
-    { code: 'en', label: '🇺🇸 English', shortLabel: 'EN' },
-    { code: 'ko', label: '🇰🇷 한국어', shortLabel: 'KO' },
-    { code: 'ja', label: '🇯🇵 日本語', shortLabel: 'JA' },
-    { code: 'cn', label: '🇨🇳 中文', shortLabel: 'CN' }
+    { code: 'en', label: 'English', shortLabel: 'EN' },
+    { code: 'ko', label: '한국어', shortLabel: 'KO' },
+    { code: 'ja', label: '日本語', shortLabel: 'JA' },
+    { code: 'cn', label: '中文', shortLabel: 'CN' }
   ] as const
   
   const currentLangInfo = languages.find(lang => lang.code === currentLanguage)
