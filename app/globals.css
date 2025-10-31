@@ -170,11 +170,11 @@ img.image-grid-item:nth-of-type(3n) {
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-gray-200;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-gray-900;
   }
 }
 
