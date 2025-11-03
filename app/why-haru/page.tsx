@@ -1,0 +1,7 @@
+'use client'
+
+import { WhyHaru } from '@/components/why-haru'
+
+export default function WhyHaruPage() {
+  return <WhyHaru />
+}

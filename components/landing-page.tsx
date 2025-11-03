@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { Heart, Calendar, Clock, Sparkles, ChevronRight, ArrowRight, Globe, ChevronDown } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 type Language = 'en' | 'ko' | 'ja' | 'cn'
 
@@ -26,7 +27,7 @@ const translations = {
     heroTitleHighlight: 'Just chat with haru.',
     heroSubline: 'haru listens, writes, and understands.',
     heroDescription: 'haru isn\'t just for writing — it\'s for being heard. Speak freely or write silently — haru gently adapts to you. With thoughtful AI chat or classic diary mode, haru helps you process what matters and feel truly seen.',
-    startJourney: 'Start Your Diary',
+    startStory: 'Start Your Story',
     learnMore: 'Learn More',
     
     // Mode Switching Section
@@ -64,7 +65,7 @@ const translations = {
     entrySample: '"Today was a whirlwind of emotions. I woke up feeling anxious about the meeting, but it went better than expected..."',
     
     // Additional Features Section
-    additionalFeaturesTitle: 'Additional features to enhance your journey',
+    additionalFeaturesTitle: 'Additional features to enhance your story',
     additionalFeaturesDescription: 'Beyond the core journaling experience, these features help you track patterns, revisit memories, and build sustainable habits.',
     
     // Supporting Features
@@ -125,6 +126,13 @@ const translations = {
     reason3Title: 'Natural reflection rhythm',
     reason3Description: 'Morning intentions, midday check-in, evening reflection',
     
+    // Why Haru Section
+    whyHaruTitle: 'Why "haru"?',
+    whyHaruDescription1: '"haru" means "a day" in Korean.',
+    whyHaruDescription2: 'We named this app haru because every day — no matter how quiet or messy — deserves to be remembered, reflected on, and honored.',
+    whyHaruDescription3: 'Some days you need to write.\nSome days you just need someone to listen.',
+    whyHaruDescription4: 'haru is here for both.\nTo hold space for your emotions.\nTo help you feel seen, heard, and understood — one day at a time.',
+    
     // CTA Section
     ctaTitle: 'Start journaling — your way',
     ctaDescription: 'Whether you prefer thoughtful chats or quiet reflection, haru supports both. Switch anytime, stay consistent, and rediscover yourself.',
@@ -151,7 +159,7 @@ const translations = {
     heroTitleHighlight: '그냥 적어보세요.',
     heroSubline: 'haru가 들어주고, 기록하고, 이해해드려요.',
     heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 들려주기 위한 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰드려요. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진정으로 이해받는 느낌을 드려요.',
-    startJourney: '일기 시작하기',
+    startStory: '이야기 시작하기',
     learnMore: '더 알아보기',
     
     // Mode Switching Section
@@ -189,7 +197,7 @@ const translations = {
     entrySample: '"오늘은 감정의 소용돌이 같은 하루였다. 회의 때문에 불안한 마음으로 일어났지만, 예상보다 잘 풀렸다..."',
     
     // Additional Features Section
-    additionalFeaturesTitle: '일기 여정을 더욱 풍부하게 만드는 추가 기능들',
+    additionalFeaturesTitle: '일기 이야기를 더욱 풍부하게 만드는 추가 기능들',
     additionalFeaturesDescription: '핵심 일기 경험 외에도, 이러한 기능들이 패턴을 추적하고 추억을 되돌아보며 지속 가능한 습관을 만드는 데 도움을 줍니다.',
     
     // Supporting Features
@@ -250,6 +258,13 @@ const translations = {
     reason3Title: '자연스러운 성찰 리듬',
     reason3Description: '아침 다짐, 오후 체크인, 저녁 성찰',
     
+    // Why Haru Section
+    whyHaruTitle: '왜 "하루"일까요?',
+    whyHaruDescription1: '"하루"는 한국어로 "a day"를 의미합니다.',
+    whyHaruDescription2: '우리는 이 앱을 haru라고 이름 지었습니다. 조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
+    whyHaruDescription3: '어떤 날은 글을 써야 하고,\n어떤 날은 그저 누군가가 들어주길 원하죠.',
+    whyHaruDescription4: 'haru는 그 둘 모두를 위해 있습니다.\n당신의 감정을 담아두고,\n하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',
+    
     // CTA Section
     ctaTitle: '나만의 방식으로 일기 쓰기 시작',
     ctaDescription: '사려 깊은 채팅이든 조용한 성찰이든, haru는 둘 다 지원합니다. 언제든지 전환하고, 꾸준히 이어가며, 자신을 재발견하세요.',
@@ -276,7 +291,7 @@ const translations = {
     heroTitleHighlight: 'ただ話してください。',
     heroSubline: 'haruが聞いて、記録して、理解してくれます。',
     heroDescription: 'haruは単なる書くためのものではありません — 聞いてもらうための場所です。自由に話すか静かに書くか — haruが優しく寄り添います。思いやりのあるAIチャットやクラシック日記モードで、大切な気持ちを整理し、本当に理解されている実感をお届けします。',
-    startJourney: '日記を始める',
+    startStory: '物語を始める',
     learnMore: 'もっと詳しく',
     
     // Mode Switching Section
@@ -314,7 +329,7 @@ const translations = {
     entrySample: '"今日は感情の嵐のような日だった。会議のことで不安な気持ちで目覚めたが、予想よりもうまくいった..."',
     
     // Additional Features Section
-    additionalFeaturesTitle: '日記体験を豊かにする追加機能',
+    additionalFeaturesTitle: '日記物語を豊かにする追加機能',
     additionalFeaturesDescription: '核となる日記体験に加えて、これらの機能がパターンの追跡、思い出の振り返り、持続可能な習慣作りをサポートします。',
     
     // Supporting Features
@@ -375,6 +390,13 @@ const translations = {
     reason3Title: '自然な振り返りのリズム',
     reason3Description: '朝の意図、昼のチェックイン、夜の振り返り',
     
+    // Why Haru Section
+    whyHaruTitle: 'なぜ「haru」？',
+    whyHaruDescription1: '「haru」は韓国語で「a day（一日）」を意味します。',
+    whyHaruDescription2: '私たちはこのアプリをharuと名付けました。どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
+    whyHaruDescription3: 'ある日は書く必要があり、\nある日はただ誰かに聞いてもらいたい。',
+    whyHaruDescription4: 'haruは両方のためにここにいます。\nあなたの感情を受け止め、\n一日一日、本当に見えて、聞こえて、理解されていると感じさせるために。',
+    
     // CTA Section
     ctaTitle: 'あなたの方法で日記を始めよう',
     ctaDescription: '思慮深いチャットでも静かな内省でも、haruは両方をサポートします。いつでも切り替えて、一貫性を保ち、自分を再発見してください。',
@@ -401,7 +423,7 @@ const translations = {
     heroTitleHighlight: '就讲讲吧。',
     heroSubline: 'haru会倾听您的心声，记录您的想法，理解您的感受。',
     heroDescription: 'haru不只是用来写作的 — 这是一个被倾听的地方。自由地说话或安静地写作 — haru温柔地适应您。通过贴心的AI聊天或经典日记模式，haru帮您整理重要的想法，让您真正感受到被理解。',
-    startJourney: '开始写日记',
+    startStory: '开始你的故事',
     learnMore: '了解更多',
     
     // Mode Switching Section
@@ -439,7 +461,7 @@ const translations = {
     entrySample: '"今天是一个情感波澜的日子。我因为担心会议而焦虑地醒来，但结果比预期的要好..."',
     
     // Additional Features Section
-    additionalFeaturesTitle: '增强日记体验的附加功能',
+    additionalFeaturesTitle: '增强日记故事的附加功能',
     additionalFeaturesDescription: '除了核心日记体验外，这些功能帮助您追踪模式、重温回忆并建立可持续的习惯。',
     
     // Supporting Features
@@ -500,6 +522,13 @@ const translations = {
     reason3Title: '自然的反思节奏',
     reason3Description: '早晨的意图，中午的检查，晚上的反思',
     
+    // Why Haru Section
+    whyHaruTitle: '为什么叫"haru"？',
+    whyHaruDescription1: '"haru"在韩语中意为"一天"。',
+    whyHaruDescription2: '我们将这个应用命名为haru，因为每一天——无论多么平静或混乱——都值得被记住、被反思、被珍惜。',
+    whyHaruDescription3: '有些日子你需要写作。\n有些日子你只需要有人倾听。',
+    whyHaruDescription4: 'haru为这两者而存在。\n为您的情感留出空间。\n帮助您感受到被看见、被听见、被理解——一天一天地。',
+    
     // CTA Section
     ctaTitle: '以您的方式开始写日记',
     ctaDescription: '无论您偏爱深思的聊天还是安静的反思，haru都支持。随时切换，保持一致，重新发现自己。',
@@ -519,6 +548,7 @@ const translations = {
 }
 
 export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, onContact }: LandingPageProps) {
+  const router = useRouter()
   const [currentLanguage, setCurrentLanguage] = useState<Language>('en')
   const [showLanguageDropdown, setShowLanguageDropdown] = useState(false)
   
@@ -665,11 +695,14 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
                 onClick={onGetStarted}
                 className="flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-pink-400 to-rose-400 text-white rounded-xl hover:from-pink-500 hover:to-rose-500 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
-                {t.startJourney}
+                {t.startStory}
                 <ArrowRight className="w-4 h-4" />
               </button>
               
-              <button className="flex items-center gap-2 px-8 py-3 bg-white text-gray-700 rounded-xl border border-gray-200 hover:bg-gray-50 transition-colors">
+              <button 
+                onClick={() => router.push('/why-haru')}
+                className="flex items-center gap-2 px-8 py-3 bg-white text-gray-700 rounded-xl border border-gray-200 hover:bg-gray-50 transition-colors"
+              >
                 <span>{t.learnMore}</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
