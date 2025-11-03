@@ -1267,6 +1267,21 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
             <p className="text-sm text-gray-500 mt-4">
               {t.bothIncluded}
             </p>
+            
+            {/* Footer content within CTA section */}
+            <div className="mt-12 pt-6 border-t border-pink-200/50">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <span className="text-sm text-gray-500">© 2025 <a href="https://polaris-lab.net/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 transition-colors">Polaris</a>. All rights reserved.</span>
+                </div>
+                
+                <div className="flex items-center gap-6 text-sm text-gray-600">
+                  <button className="hover:text-gray-800 transition-colors">Privacy Policy</button>
+                  <button className="hover:text-gray-800 transition-colors">Terms of Service</button>
+                  <button className="hover:text-gray-800 transition-colors">Contact</button>
+                </div>
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
