@@ -1305,8 +1305,9 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             </p>
             
             {/* Footer content within CTA section */}
-            <div className="mt-12 pt-6 border-t border-pink-200/50">
-              <div className="flex items-center justify-between">
+            <div className="mt-12">
+              <div className="border-t border-pink-200/50 mx-[-2rem] sm:mx-[-4rem]"></div>
+              <div className="flex items-center justify-between pt-6">
                 <div className="flex items-center">
                   <span className="text-sm text-gray-500">© 2025 <a href="https://polaris-lab.net/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 transition-colors">Polaris</a>. All rights reserved.</span>
                 </div>
