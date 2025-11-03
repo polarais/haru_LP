@@ -89,13 +89,13 @@ const translations = {
     realStoriesDescription: 'See how haru helps people navigate life\'s ups and downs',
     story1Title: 'When exam stress hits hard',
     story1Quote: '"I was drowning in exam anxiety. haru\'s AI asked me \'What\'s the scariest part about tomorrow?\' Suddenly, I could name my fear and work through it."',
-    story1Author: 'Sarah, 22, College Student',
+    story1Author: 'Soyeon, 22, College Student',
     story2Title: 'After a difficult breakup',
     story2Quote: '"Instead of bottling everything up, I talked to haru. The AI helped me see patterns in my relationships I never noticed before."',
-    story2Author: 'Mike, 28, Designer',
+    story2Author: 'Takeshi, 28, Designer',
     story3Title: 'Daily gratitude practice',
     story3Quote: '"Three entries a day? Perfect. Morning intentions, lunch reflections, evening gratitude. It\'s become my mental health routine."',
-    story3Author: 'Emma, 31, Teacher',
+    story3Author: 'Minji, 31, Teacher',
     
     // Trust & Privacy Section
     trustTitle: 'Your stories are safe with us',
@@ -621,7 +621,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-100 to-purple-100 text-pink-700 px-4 py-2 rounded-full mb-6">
+            <div className="inline-flex items-center gap-2 text-pink-600 bg-pink-50/50 px-3 py-1 rounded mb-6">
               <Sparkles className="w-4 h-4" />
               <span className="text-sm">{t.tagline}</span>
             </div>
@@ -677,6 +677,8 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
                   <span className="text-2xl">😊</span>
                   <span className="text-gray-700">Feeling grateful</span>
                 </div>
+                {/* Speech bubble tail */}
+                <div className="absolute -bottom-1 right-6 w-3 h-3 bg-white/90 transform rotate-45"></div>
               </div>
               
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg">
