@@ -9,6 +9,9 @@ type Language = 'en' | 'ko' | 'ja' | 'cn'
 
 interface LandingPageProps {
   onGetStarted: () => void
+  onPrivacyPolicy?: () => void
+  onTermsOfService?: () => void
+  onContact?: () => void
 }
 
 // Translation object
@@ -59,6 +62,10 @@ const translations = {
     traditionalWritingDescription: 'Express yourself freely with classic diary writing. Pour your thoughts onto the page without any guidance - perfect for stream-of-consciousness writing and personal reflection.',
     yourEntry: 'Your Entry',
     entrySample: '"Today was a whirlwind of emotions. I woke up feeling anxious about the meeting, but it went better than expected..."',
+    
+    // Additional Features Section
+    additionalFeaturesTitle: 'Additional features to enhance your journey',
+    additionalFeaturesDescription: 'Beyond the core journaling experience, these features help you track patterns, revisit memories, and build sustainable habits.',
     
     // Supporting Features
     moodCalendarTitle: 'Mood Calendar',
@@ -181,6 +188,10 @@ const translations = {
     yourEntry: '당신의 글',
     entrySample: '"오늘은 감정의 소용돌이 같은 하루였다. 회의 때문에 불안한 마음으로 일어났지만, 예상보다 잘 풀렸다..."',
     
+    // Additional Features Section
+    additionalFeaturesTitle: '일기 여정을 더욱 풍부하게 만드는 추가 기능들',
+    additionalFeaturesDescription: '핵심 일기 경험 외에도, 이러한 기능들이 패턴을 추적하고 추억을 되돌아보며 지속 가능한 습관을 만드는 데 도움을 줍니다.',
+    
     // Supporting Features
     moodCalendarTitle: '기분 캘린더',
     moodCalendarDescription: '아름다운 캘린더 뷰로 일일 감정을 추적하세요. 기분의 패턴을 보고 좋은 날들을 축하하며 어려운 날들에서 배우세요.',
@@ -301,6 +312,10 @@ const translations = {
     traditionalWritingDescription: 'クラシックな日記の執筆で自由に自分を表現してください。ガイダンスなしでページに考えを注ぎ込んでください - 意識の流れの執筆と個人的な内省に最適です。',
     yourEntry: 'あなたのエントリ',
     entrySample: '"今日は感情の嵐のような日だった。会議のことで不安な気持ちで目覚めたが、予想よりもうまくいった..."',
+    
+    // Additional Features Section
+    additionalFeaturesTitle: '日記体験を豊かにする追加機能',
+    additionalFeaturesDescription: '核となる日記体験に加えて、これらの機能がパターンの追跡、思い出の振り返り、持続可能な習慣作りをサポートします。',
     
     // Supporting Features
     moodCalendarTitle: 'ムードカレンダー',
@@ -423,6 +438,10 @@ const translations = {
     yourEntry: '您的记录',
     entrySample: '"今天是一个情感波澜的日子。我因为担心会议而焦虑地醒来，但结果比预期的要好..."',
     
+    // Additional Features Section
+    additionalFeaturesTitle: '增强日记体验的附加功能',
+    additionalFeaturesDescription: '除了核心日记体验外，这些功能帮助您追踪模式、重温回忆并建立可持续的习惯。',
+    
     // Supporting Features
     moodCalendarTitle: '情绪日历',
     moodCalendarDescription: '用美丽的日历视图跟踪您的日常情绪。看到您情绪的模式，庆祝美好的日子，从困难的日子中学习。',
@@ -499,7 +518,7 @@ const translations = {
   }
 }
 
-export function LandingPage({ onGetStarted }: LandingPageProps) {
+export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, onContact }: LandingPageProps) {
   const [currentLanguage, setCurrentLanguage] = useState<Language>('en')
   const [showLanguageDropdown, setShowLanguageDropdown] = useState(false)
   
@@ -890,8 +909,25 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
             </div>
           </motion.div>
         </div>
+      </section>
+
+      {/* Additional Features Section */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-3xl lg:text-4xl text-gray-800 mb-4">
+            {t.additionalFeaturesTitle}
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            {t.additionalFeaturesDescription}
+          </p>
+        </motion.div>
         
-        {/* Supporting Features */}
         <div className="grid md:grid-cols-3 gap-8">
           {/* Calendar Feature */}
           <motion.div
@@ -1276,9 +1312,24 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
                 </div>
                 
                 <div className="flex items-center gap-6 text-sm text-gray-600">
-                  <button className="hover:text-gray-800 transition-colors">Privacy Policy</button>
-                  <button className="hover:text-gray-800 transition-colors">Terms of Service</button>
-                  <button className="hover:text-gray-800 transition-colors">Contact</button>
+                  <button 
+                    onClick={onPrivacyPolicy}
+                    className="hover:text-gray-800 transition-colors"
+                  >
+                    Privacy Policy
+                  </button>
+                  <button 
+                    onClick={onTermsOfService}
+                    className="hover:text-gray-800 transition-colors"
+                  >
+                    Terms of Service
+                  </button>
+                  <button 
+                    onClick={onContact}
+                    className="hover:text-gray-800 transition-colors"
+                  >
+                    Contact
+                  </button>
                 </div>
               </div>
             </div>
