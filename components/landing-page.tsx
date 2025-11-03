@@ -23,7 +23,7 @@ const translations = {
     heroTitleHighlight: 'Just chat with haru.',
     heroSubline: 'haru listens, writes, and understands.',
     heroDescription: 'haru isn\'t just for writing — it\'s for being heard. Speak freely or write silently — haru gently adapts to you. With thoughtful AI chat or classic diary mode, haru helps you process what matters and feel truly seen.',
-    startJourney: 'Start Your Journey',
+    startJourney: 'Start Your Diary',
     learnMore: 'Learn More',
     
     // Mode Switching Section
@@ -41,7 +41,12 @@ const translations = {
     
     // Features Section
     featuresTitle: 'Three ways to express your inner world',
-    featuresDescription: 'Choose your journaling style: traditional writing or AI-guided conversations that help you explore emotions and discover new insights about yourself.',
+    featuresDescription: 'Choose your journaling style: AI-guided conversations, traditional writing, or write first then reflect with AI - each helping you explore emotions and discover new insights about yourself.',
+    
+    // AI Reflection Feature - NEW
+    aiReflectionTitle: 'Write First, Reflect with AI',
+    aiReflectionDescription: 'Write your journal entry in traditional style, then let our AI companion provide thoughtful reflections and insights about your experience. Perfect for those who prefer to express first, then explore deeper meanings together.',
+    reflectionSample: 'AI: "I notice you mentioned feeling anxious but then relieved. What do you think helped the meeting go better than expected?"',
     
     // AI Chat Feature
     aiConversationTitle: 'AI Conversation Journaling',
@@ -61,7 +66,7 @@ const translations = {
     timelineTitle: 'Timeline View',
     timelineDescription: 'Browse through all your entries in a chronological timeline. Rediscover forgotten memories and see how you\'ve grown over time.',
     smartInsightsTitle: 'Smart Insights',
-    smartInsightsDescription: 'Get personalized insights from your journaling patterns. AI analyzes your emotions and provides gentle guidance for your wellness journey.',
+    smartInsightsDescription: 'Get personalized insights from your journaling patterns. AI analyzes your emotions and provides gentle guidance for your daily diary practice.',
     weeklyInsight: '💭 Weekly Insight',
     insightSample: '"You\'ve shown great resilience this week. Consider celebrating small wins..."',
     
@@ -71,13 +76,13 @@ const translations = {
     
     // AI Understanding Section
     aiUnderstandingTitle: 'AI that truly understands you',
-    aiUnderstandingDescription: 'haru\'s AI companion uses advanced emotional intelligence to provide personalized guidance. Unlike generic chatbots, haru\'s AI learns your communication style and offers meaningful support tailored to your unique emotional journey.',
+    aiUnderstandingDescription: 'haru\'s AI companion uses advanced emotional intelligence to provide personalized guidance. Unlike generic chatbots, haru\'s AI learns your communication style and offers meaningful support tailored to your personal diary experience.',
     emotionalIntelligence: 'Emotional Intelligence',
     emotionalIntelligenceDescription: 'AI that recognizes subtle emotional cues and responds with empathy',
     thoughtfulQuestions: 'Thoughtful Questions',
     thoughtfulQuestionsDescription: 'Asks the right questions to help you explore deeper feelings',
-    privateSecure: 'Private & Secure',
-    privateSecureDescription: 'Your conversations with AI are completely private and secure',
+    privateSecure: 'Takes Time to Build',
+    privateSecureDescription: 'Good friendships take time to develop. Building a meaningful connection with your AI companion is a gradual, rewarding process.',
     
     // Real Stories Section
     realStoriesTitle: 'Real moments, real transformations',
@@ -139,7 +144,7 @@ const translations = {
     heroTitleHighlight: '그냥 적어보세요.',
     heroSubline: 'haru가 들어주고, 기록하고, 이해해드려요.',
     heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 들려주기 위한 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰드려요. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진정으로 이해받는 느낌을 드려요.',
-    startJourney: '여정 시작하기',
+    startJourney: '일기 시작하기',
     learnMore: '더 알아보기',
     
     // Mode Switching Section
@@ -157,7 +162,12 @@ const translations = {
     
     // Features Section
     featuresTitle: '내면의 세계를 표현하는 세 가지 방법',
-    featuresDescription: '일기 스타일을 선택하세요: 전통적인 글쓰기 또는 감정을 탐험하고 자신에 대한 새로운 통찰을 발견하도록 도와주는 AI 가이드 대화.',
+    featuresDescription: '일기 스타일을 선택하세요: AI 가이드 대화, 전통적인 글쓰기, 또는 먼저 쓰고 AI와 성찰하기 - 모두 감정을 탐험하고 자신에 대한 새로운 통찰을 발견하도록 도와줍니다.',
+    
+    // AI Reflection Feature - NEW
+    aiReflectionTitle: '먼저 쓰고, AI와 성찰하기',
+    aiReflectionDescription: '전통적인 스타일로 일기를 쓴 후, AI 동반자가 당신의 경험에 대해 사려 깊은 성찰과 통찰을 제공하도록 하세요. 먼저 표현하고 나서 더 깊은 의미를 함께 탐구하고 싶은 분들에게 완벽합니다.',
+    reflectionSample: 'AI: "불안했다가 안도했다고 하셨는데, 회의가 예상보다 잘 된 이유가 무엇이라고 생각하시나요?"',
     
     // AI Chat Feature
     aiConversationTitle: 'AI 대화형 일기',
@@ -192,8 +202,8 @@ const translations = {
     emotionalIntelligenceDescription: '미묘한 감정 신호를 인식하고 공감으로 반응하는 AI',
     thoughtfulQuestions: '사려 깊은 질문',
     thoughtfulQuestionsDescription: '더 깊은 감정을 탐험하도록 돕는 올바른 질문을 던집니다',
-    privateSecure: '프라이빗하고 안전한',
-    privateSecureDescription: 'AI와의 대화는 완전히 프라이빗하고 안전합니다',
+    privateSecure: '시간이 필요한 관계',
+    privateSecureDescription: '좋은 친구를 사귀는 데에는 시간이 걸립니다. AI 동반자와 의미 있는 관계를 쌓는 것은 점진적이고 보람 있는 과정입니다.',
     
     // Real Stories Section
     realStoriesTitle: '실제 순간, 진짜 변화',
@@ -255,7 +265,7 @@ const translations = {
     heroTitleHighlight: 'ただ話してください。',
     heroSubline: 'haruが聞いて、記録して、理解してくれます。',
     heroDescription: 'haruは単なる書くためのものではありません — 聞いてもらうための場所です。自由に話すか静かに書くか — haruが優しく寄り添います。思いやりのあるAIチャットやクラシック日記モードで、大切な気持ちを整理し、本当に理解されている実感をお届けします。',
-    startJourney: 'ジャーニーを始める',
+    startJourney: '日記を始める',
     learnMore: 'もっと詳しく',
     
     // Mode Switching Section
@@ -273,7 +283,12 @@ const translations = {
     
     // Features Section
     featuresTitle: '内なる世界を表現する3つの方法',
-    featuresDescription: '日記のスタイルを選択してください：感情を探求し、自分自身について新しい洞察を発見するのに役立つ従来の執筆またはAIガイド付き会話。',
+    featuresDescription: '日記のスタイルを選択してください：AIガイド付き会話、従来の執筆、または最初に書いてからAIと反省する - すべて感情を探求し、自分自身について新しい洞察を発見するのに役立ちます。',
+    
+    // AI Reflection Feature - NEW
+    aiReflectionTitle: '最初に書いて、AIと反省する',
+    aiReflectionDescription: '従来のスタイルで日記エントリを書いた後、AIコンパニオンがあなたの体験について思慮深い反省と洞察を提供するようにしてください。最初に表現してから、より深い意味を一緒に探求することを好む方に最適です。',
+    reflectionSample: 'AI: "不安を感じてから安心されたとおっしゃいましたが、会議が予想よりもうまくいった理由は何だと思いますか？"',
     
     // AI Chat Feature
     aiConversationTitle: 'AI会話日記',
@@ -308,8 +323,8 @@ const translations = {
     emotionalIntelligenceDescription: '微妙な感情の手がかりを認識し、共感をもって反応するAI',
     thoughtfulQuestions: '思慮深い質問',
     thoughtfulQuestionsDescription: 'より深い感情を探求するのに役立つ適切な質問をします',
-    privateSecure: 'プライベートで安全',
-    privateSecureDescription: 'AIとの会話は完全にプライベートで安全です',
+    privateSecure: '時間をかけて築く関係',
+    privateSecureDescription: '良い友人関係を築くには時間がかかります。AIコンパニオンとの有意義なつながりを築くことは、段階的で価値のあるプロセスです。',
     
     // Real Stories Section
     realStoriesTitle: '実際の瞬間、本当の変化',
@@ -371,7 +386,7 @@ const translations = {
     heroTitleHighlight: '就讲讲吧。',
     heroSubline: 'haru会倾听您的心声，记录您的想法，理解您的感受。',
     heroDescription: 'haru不只是用来写作的 — 这是一个被倾听的地方。自由地说话或安静地写作 — haru温柔地适应您。通过贴心的AI聊天或经典日记模式，haru帮您整理重要的想法，让您真正感受到被理解。',
-    startJourney: '开始旅程',
+    startJourney: '开始写日记',
     learnMore: '了解更多',
     
     // Mode Switching Section
@@ -389,7 +404,12 @@ const translations = {
     
     // Features Section
     featuresTitle: '表达内心世界的三种方式',
-    featuresDescription: '选择您的日记风格：传统写作或AI引导的对话，帮助您探索情感并发现关于自己的新见解。',
+    featuresDescription: '选择您的日记风格：AI引导的对话、传统写作，或者先写作然后与AI反思 - 每种方式都帮助您探索情感并发现关于自己的新见解。',
+    
+    // AI Reflection Feature - NEW
+    aiReflectionTitle: '先写作，再与AI反思',
+    aiReflectionDescription: '以传统风格写日记，然后让我们的AI伙伴为您的体验提供深思熟虑的反思和见解。非常适合那些喜欢先表达然后一起探索更深层含义的人。',
+    reflectionSample: 'AI: "我注意到您提到从焦虑到松了一口气，您认为是什么让会议进行得比预期的好？"',
     
     // AI Chat Feature
     aiConversationTitle: 'AI对话日记',
@@ -424,8 +444,8 @@ const translations = {
     emotionalIntelligenceDescription: '识别微妙的情感线索并以同理心回应的AI',
     thoughtfulQuestions: '深思熟虑的问题',
     thoughtfulQuestionsDescription: '提出正确的问题帮助您探索更深层的感受',
-    privateSecure: '私密安全',
-    privateSecureDescription: '您与AI的对话完全私密和安全',
+    privateSecure: '需要时间建立',
+    privateSecureDescription: '好友谊需要时间培养。与您的AI伙伴建立有意义的连接是一个循序渐进、充满价值的过程。',
     
     // Real Stories Section
     realStoriesTitle: '真实瞬间，真正改变',
@@ -754,14 +774,14 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
         </motion.div>
         
         {/* Main Writing Methods - Featured prominently */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
           {/* AI Chat Method - Main Appeal */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-sm border-2 border-purple-200 relative overflow-hidden"
+            className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 shadow-sm border-2 border-purple-200 relative overflow-hidden"
           >
             {/* Featured badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs">
@@ -772,13 +792,13 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               <Sparkles className="w-6 h-6 text-purple-600" />
             </div>
             
-            <h3 className="text-2xl text-gray-800 mb-3">{t.aiConversationTitle}</h3>
+            <h3 className="text-xl text-gray-800 mb-3">{t.aiConversationTitle}</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
               {highlightHaru(t.aiConversationDescription)}
             </p>
             
             <div className="bg-white/60 rounded-xl p-4 mb-4">
-              <div className="w-full h-40 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center">
+              <div className="w-full h-32 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center">
                 <div className="text-center">
                   <Sparkles className="w-12 h-12 text-purple-400 mx-auto mb-2" />
                   <p className="text-sm text-gray-600">AI Chat Interface</p>
@@ -800,19 +820,19 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
-            className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200 hover:shadow-lg transition-shadow"
+            className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200 hover:shadow-lg transition-shadow"
           >
             <div className="w-12 h-12 bg-gradient-to-r from-pink-100 to-rose-100 rounded-xl flex items-center justify-center mb-6">
               <Heart className="w-6 h-6 text-pink-600" />
             </div>
             
-            <h3 className="text-2xl text-gray-800 mb-3">{t.traditionalWritingTitle}</h3>
+            <h3 className="text-xl text-gray-800 mb-3">{t.traditionalWritingTitle}</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
               {highlightHaru(t.traditionalWritingDescription)}
             </p>
             
             <div className="bg-gray-50 rounded-xl p-4 mb-4">
-              <div className="w-full h-40 bg-gradient-to-br from-pink-100 to-rose-100 rounded-lg flex items-center justify-center">
+              <div className="w-full h-32 bg-gradient-to-br from-pink-100 to-rose-100 rounded-lg flex items-center justify-center">
                 <div className="text-center">
                   <Heart className="w-12 h-12 text-pink-400 mx-auto mb-2 fill-pink-200" />
                   <p className="text-sm text-gray-600">Journal Writing</p>
@@ -825,6 +845,46 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               <div className="text-xs text-gray-700 italic">
                 {t.entrySample}
               </div>
+            </div>
+          </motion.div>
+          
+          {/* AI Reflection Method - NEW */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ once: true }}
+            className="bg-gradient-to-br from-rose-50 to-orange-50 rounded-2xl p-6 shadow-sm border-2 border-rose-200 relative overflow-hidden hover:shadow-lg transition-shadow"
+          >
+            {/* Featured badge */}
+            <div className="absolute top-4 right-4 bg-gradient-to-r from-rose-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs">
+              ✨ Featured
+            </div>
+            
+            <div className="w-12 h-12 bg-gradient-to-r from-rose-100 to-orange-100 rounded-xl flex items-center justify-center mb-6">
+              <Sparkles className="w-6 h-6 text-rose-600" />
+            </div>
+            
+            <h3 className="text-xl text-gray-800 mb-3">{t.aiReflectionTitle}</h3>
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              {t.aiReflectionDescription}
+            </p>
+            
+            <div className="bg-white/60 rounded-xl p-4 mb-4">
+              <div className="w-full h-32 bg-gradient-to-br from-rose-100 to-orange-100 rounded-lg flex items-center justify-center">
+                <div className="text-center">
+                  <div className="flex items-center justify-center mb-2">
+                    <Heart className="w-8 h-8 text-rose-400 mr-2 fill-rose-200" />
+                    <span className="text-2xl">→</span>
+                    <Sparkles className="w-8 h-8 text-orange-400 ml-2" />
+                  </div>
+                  <p className="text-sm text-gray-600">Write → Reflect</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white/60 rounded-lg p-3">
+              <div className="text-xs text-rose-600 mb-1">🤔 {t.reflectionSample}</div>
             </div>
           </motion.div>
         </div>
@@ -1019,7 +1079,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 bg-rose-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <span className="text-xs">🔒</span>
+                  <span className="text-xs">⏳</span>
                 </div>
                 <div>
                   <div className="text-gray-800 mb-1">{t.privateSecure}</div>
