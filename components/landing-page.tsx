@@ -852,11 +852,14 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             </p>
             
             <div className="bg-white/60 rounded-xl p-4 mb-4">
-              <div className="w-full h-32 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <Sparkles className="w-12 h-12 text-purple-400 mx-auto mb-2" />
-                  <p className="text-sm text-gray-600">AI Chat Interface</p>
-                </div>
+              <div className="w-full h-32 rounded-lg overflow-hidden">
+                <Image
+                  src="/Group 4.png"
+                  alt="AI conversation illustration showing a friendly robot chatting with a user"
+                  width={320}
+                  height={128}
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
             
@@ -886,11 +889,14 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             </p>
             
             <div className="bg-gray-50 rounded-xl p-4 mb-4">
-              <div className="w-full h-32 bg-gradient-to-br from-pink-100 to-rose-100 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <Heart className="w-12 h-12 text-pink-400 mx-auto mb-2 fill-pink-200" />
-                  <p className="text-sm text-gray-600">Journal Writing</p>
-                </div>
+              <div className="w-full h-32 rounded-lg overflow-hidden">
+                <Image
+                  src="/Group 5.png"
+                  alt="Traditional journal writing illustration"
+                  width={320}
+                  height={128}
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
             
@@ -925,15 +931,14 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             </p>
             
             <div className="bg-white/60 rounded-xl p-4 mb-4">
-              <div className="w-full h-32 bg-gradient-to-br from-rose-100 to-orange-100 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="flex items-center justify-center mb-2">
-                    <Heart className="w-8 h-8 text-rose-400 mr-2 fill-rose-200" />
-                    <span className="text-2xl">→</span>
-                    <Sparkles className="w-8 h-8 text-orange-400 ml-2" />
-                  </div>
-                  <p className="text-sm text-gray-600">Write → Reflect</p>
-                </div>
+              <div className="w-full h-32 rounded-lg overflow-hidden">
+                <Image
+                  src="/watermarked-9b747e80-67e6-4b59-afdc-819769adcd3f 1.png"
+                  alt="Write first then reflect with AI illustration"
+                  width={320}
+                  height={128}
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
             
