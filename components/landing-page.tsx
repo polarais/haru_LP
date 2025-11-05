@@ -670,8 +670,7 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center gap-2 text-pink-600 bg-pink-50/50 px-3 py-1 rounded mb-6">
-              <Sparkles className="w-4 h-4" />
+            <div className="text-pink-600 mb-3">
               <span className="text-sm">{t.tagline}</span>
             </div>
             
@@ -687,6 +686,10 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             </h2>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              {highlightHaru(`haru means '`)}
+              <strong>a day</strong>
+              {highlightHaru(`' in Korean.`)}
+              <br />
               {highlightHaru(t.heroDescription)}
             </p>
             
