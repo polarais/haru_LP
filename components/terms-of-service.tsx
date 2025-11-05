@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Heart, FileText, Users, AlertTriangle, CheckCircle, XCircle, User, Smartphone, Target, CreditCard, RefreshCw, Phone, Bot, Shield, Mail, Scale, RotateCcw, Square } from 'lucide-react'
+import { Heart, FileText, Users, AlertTriangle, CheckCircle, XCircle, Check, X, User, Smartphone, Target, CreditCard, RefreshCw, Phone, Bot, Shield, Mail, Scale, RotateCcw, Square } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 export function TermsOfService() {
@@ -57,7 +57,7 @@ export function TermsOfService() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-gray-800 mb-2 flex items-center gap-2">
-                  <span className="text-green-600">✓</span>
+                  <Check className="w-4 h-4 text-green-600 mt-1" />
                   What you can do
                 </h3>
                 <ul className="text-sm text-gray-600 space-y-1 ml-6">
@@ -69,7 +69,7 @@ export function TermsOfService() {
               </div>
               <div>
                 <h3 className="text-gray-800 mb-2 flex items-center gap-2">
-                  <span className="text-red-600">✗</span>
+                  <X className="w-4 h-4 text-red-600 mt-1" />
                   What you can't do
                 </h3>
                 <ul className="text-sm text-gray-600 space-y-1 ml-6">
