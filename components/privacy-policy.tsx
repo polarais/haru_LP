@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Heart, Shield, Lock, Eye, Database, Globe, FileText, User, BarChart3, Download, Trash2, Edit, Pause } from 'lucide-react'
+import { Heart, Shield, Lock, Eye, Database, Globe, FileText, User, BarChart3, Download, Trash2, Edit, Pause, Check, X, Building2, Users } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 export function PrivacyPolicy() {
@@ -127,19 +127,19 @@ export function PrivacyPolicy() {
               
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <Check className="w-4 h-4 text-green-600 mt-1" />
                   <p className="text-gray-600">Provide AI conversation features and writing assistance</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <Check className="w-4 h-4 text-green-600 mt-1" />
                   <p className="text-gray-600">Sync your diary across your devices securely</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <Check className="w-4 h-4 text-green-600 mt-1" />
                   <p className="text-gray-600">Send you important account and service updates</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-green-600 mt-1">✓</span>
+                  <Check className="w-4 h-4 text-green-600 mt-1" />
                   <p className="text-gray-600">Improve the app with anonymous usage insights</p>
                 </div>
               </div>
@@ -151,19 +151,19 @@ export function PrivacyPolicy() {
               
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <span className="text-red-600 mt-1">✗</span>
+                  <X className="w-4 h-4 text-red-600 mt-1" />
                   <p className="text-gray-600">Sell, rent, or share your personal data with third parties</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-red-600 mt-1">✗</span>
+                  <X className="w-4 h-4 text-red-600 mt-1" />
                   <p className="text-gray-600">Read your diary entries (they're encrypted)</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-red-600 mt-1">✗</span>
+                  <X className="w-4 h-4 text-red-600 mt-1" />
                   <p className="text-gray-600">Show you ads based on your diary content</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-red-600 mt-1">✗</span>
+                  <X className="w-4 h-4 text-red-600 mt-1" />
                   <p className="text-gray-600">Track you across other websites or apps</p>
                 </div>
               </div>
@@ -183,13 +183,19 @@ export function PrivacyPolicy() {
                   We use AES-256 encryption - the same standard used by banks and governments.
                 </p>
                 
-                <h3 className="text-lg text-gray-800 mb-3">🏢 Infrastructure</h3>
+                <h3 className="text-lg text-gray-800 mb-3 flex items-center gap-2">
+                  <Building2 className="w-4 h-4 text-blue-600" />
+                  Infrastructure
+                </h3>
                 <p className="text-gray-600 mb-4">
                   We use enterprise-grade cloud infrastructure with regular security audits, 
                   automatic backups, and 99.9% uptime guarantees.
                 </p>
                 
-                <h3 className="text-lg text-gray-800 mb-3">👥 Access Controls</h3>
+                <h3 className="text-lg text-gray-800 mb-3 flex items-center gap-2">
+                  <Users className="w-4 h-4 text-purple-600" />
+                  Access Controls
+                </h3>
                 <p className="text-gray-600">
                   Only essential team members have access to systems, and no one can access your encrypted diary content.
                 </p>
@@ -203,28 +209,28 @@ export function PrivacyPolicy() {
               <div className="space-y-3">
                 <div>
                   <h3 className="text-gray-800 flex items-center gap-2">
-                    <Download className="w-4 h-4 text-blue-600" />
+                    <Download className="w-4 h-4 text-pink-600" />
                     Access Your Data
                   </h3>
-                  <p className="text-gray-600">Export all your diary entries anytime from your account settings.</p>
+                  <p className="text-gray-600">View all your diary entries anytime in the app. Your data is always accessible to you.</p>
                 </div>
                 <div>
                   <h3 className="text-gray-800 flex items-center gap-2">
-                    <Trash2 className="w-4 h-4 text-red-600" />
+                    <Trash2 className="w-4 h-4 text-pink-600" />
                     Delete Your Data
                   </h3>
                   <p className="text-gray-600">Delete your account and all associated data permanently at any time.</p>
                 </div>
                 <div>
                   <h3 className="text-gray-800 flex items-center gap-2">
-                    <Edit className="w-4 h-4 text-purple-600" />
+                    <Edit className="w-4 h-4 text-pink-600" />
                     Correct Your Data
                   </h3>
                   <p className="text-gray-600">Update your account information and preferences anytime.</p>
                 </div>
                 <div>
                   <h3 className="text-gray-800 flex items-center gap-2">
-                    <Pause className="w-4 h-4 text-orange-600" />
+                    <Pause className="w-4 h-4 text-pink-600" />
                     Pause Processing
                   </h3>
                   <p className="text-gray-600">Disable AI features if you prefer manual diary writing only.</p>

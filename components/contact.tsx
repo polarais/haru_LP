@@ -214,9 +214,9 @@ export function Contact() {
             
             <div className="space-y-6">
               <div className="border-b border-gray-100 pb-4">
-                <h3 className="text-lg text-gray-800 mb-2">How do I export my diary entries?</h3>
+                <h3 className="text-lg text-gray-800 mb-2">How many entries can I write per day?</h3>
                 <p className="text-gray-600 text-sm">
-                  Go to Settings → Data & Privacy → Export Data. You can download all your entries in JSON or text format.
+                  You can write up to 3 entries per day. This limit helps you build a sustainable journaling habit while focusing on quality over quantity.
                 </p>
               </div>
               

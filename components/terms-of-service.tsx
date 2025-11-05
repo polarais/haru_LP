@@ -61,9 +61,9 @@ export function TermsOfService() {
                   What you can do
                 </h3>
                 <ul className="text-sm text-gray-600 space-y-1 ml-6">
-                  <li>• Write unlimited diary entries</li>
+                  <li>• Write up to 3 diary entries per day</li>
                   <li>• Chat with AI about your thoughts</li>
-                  <li>• Export your data anytime</li>
+                  <li>• Switch between AI chat and writing modes</li>
                   <li>• Cancel your subscription anytime</li>
                 </ul>
               </div>
@@ -136,7 +136,7 @@ export function TermsOfService() {
                 </h3>
                 <p className="text-gray-600">
                   You own all the content you create in haru. We never claim ownership of your diary entries, 
-                  thoughts, or personal reflections. You can export or delete your content anytime.
+                  thoughts, or personal reflections. You can delete your content anytime.
                 </p>
               </div>
               
@@ -175,8 +175,8 @@ export function TermsOfService() {
                     Subscription Plans
                   </h3>
                   <p className="text-gray-600 mb-2">
-                    haru offers monthly and annual subscription plans. All plans include unlimited diary entries, 
-                    AI conversations, and data export. You can change or cancel your plan anytime.
+                    haru offers monthly and annual subscription plans. All plans include up to 3 daily entries, 
+                    AI conversations, and mode switching. You can change or cancel your plan anytime.
                   </p>
                 </div>
                 
@@ -294,7 +294,7 @@ export function TermsOfService() {
                   </h3>
                   <p className="text-gray-600">
                     We reserve the right to suspend or terminate accounts that violate these terms. 
-                    If we discontinue the service, we'll give you 60 days notice and help you export your data.
+                    If we discontinue the service, we'll give you 60 days notice to access your data.
                   </p>
                 </div>
               </div>
