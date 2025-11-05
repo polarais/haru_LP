@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { Heart, Calendar, Clock, Sparkles, ChevronRight, ArrowRight, Globe, ChevronDown } from 'lucide-react'
+import { Heart, Calendar, Clock, Sparkles, ChevronRight, ArrowRight, Globe, ChevronDown, Zap, MessageCircle, User, Brain, Clock3, BookOpen, HeartCrack, Smile, Star, Waves, Sunrise, Hash, PenTool, Timer, HelpCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
@@ -41,7 +41,7 @@ const translations = {
     userSample: 'You: "Pretty stressful, actually..."',
     yourThoughts: 'Your thoughts',
     thoughtSample: '"Today felt overwhelming. The meeting went better than expected though..."',
-    switchAnytime: '💫 Switch modes anytime with one click 💫',
+    switchAnytime: 'Switch modes anytime with one click',
     
     // Features Section
     featuresTitle: 'Three ways to express your inner world',
@@ -75,7 +75,7 @@ const translations = {
     timelineDescription: 'Browse through all your entries in a chronological timeline. Rediscover forgotten memories and see how you\'ve grown over time.',
     smartInsightsTitle: 'Smart Insights',
     smartInsightsDescription: 'Get personalized insights from your journaling patterns. AI analyzes your emotions and provides gentle guidance for your daily diary practice.',
-    weeklyInsight: '💭 Weekly Insight',
+    weeklyInsight: 'Weekly Insight',
     insightSample: '"You\'ve shown great resilience this week. Consider celebrating small wins..."',
     
     // Daily Limit Feature
@@ -137,7 +137,7 @@ const translations = {
     ctaTitle: 'Start journaling — your way',
     ctaDescription: 'Whether you prefer thoughtful chats or quiet reflection, haru supports both. Switch anytime, stay consistent, and rediscover yourself.',
     tryharu: 'Try haru now',
-    bothIncluded: '✨ Both AI chat and traditional writing included',
+    bothIncluded: 'Both AI chat and traditional writing included',
     
     // Timeline entries
     eveningReflection: 'Evening Reflection',
