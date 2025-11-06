@@ -719,27 +719,14 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             className="relative"
           >
             <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
-              <div className="w-full h-80 bg-gradient-to-br from-pink-100 to-rose-100 flex items-center justify-center">
-                <div className="text-center">
-                  <Heart className="w-16 h-16 text-pink-400 mx-auto mb-4 fill-pink-200" />
-                  <p className="text-gray-600">Beautiful UI Preview</p>
-                </div>
-              </div>
-              
-              {/* Floating UI Elements */}
-              <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg">
-                <div className="flex items-center gap-2 text-sm">
-                  <span className="text-2xl">😊</span>
-                  <span className="text-gray-700">Feeling grateful</span>
-                </div>
-                {/* Speech bubble tail */}
-                <div className="absolute -bottom-1 right-6 w-3 h-3 bg-white/90 transform rotate-45"></div>
-              </div>
-              
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg">
-                <div className="text-xs text-gray-500 mb-1">Today's Entry</div>
-                <div className="text-sm text-gray-700">Morning Reflection</div>
-              </div>
+              <Image
+                src="/haru-calendar-screenshot.png"
+                alt="haru app calendar view"
+                width={1600}
+                height={900}
+                className="w-full h-auto object-cover"
+                priority
+              />
             </div>
             
             {/* Decorative elements */}
