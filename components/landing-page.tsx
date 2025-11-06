@@ -290,33 +290,33 @@ const translations = {
 
     // Hero Section
     tagline: 'AI搭載パーソナル日記',
-    heroTitle: '何を書けばいいかわからない？',
+    heroTitle: '何を書くか迷うときは、',
     heroTitleHighlight: 'haruと話してみてください。',
     heroSubline: 'haruが聞いて、記録して、理解してくれます。',
-    heroDescription: 'haruは単なる書くためのものではありません — 聞いてもらうための場所です。自由に話すか静かに書くか — haruが優しく寄り添います。思いやりのあるAIチャットやクラシック日記モードで、大切な気持ちを整理し、本当に理解されている実感をお届けします。',
-    startStory: '物語を始める',
+    heroDescription: 'haruは単に書くためだけのものではありません — 聞いてもらうための場所です。自由に話すか静かに書くか — haruが優しく寄り添います。思いやりのあるAIチャットやクラシック日記モードで、大切な気持ちを整理し、本当に理解されている実感をお届けします。',
+    startStory: '今すぐ始める',
     learnMore: 'もっと詳しく',
     
     // Mode Switching Section
-    signatureFeature: '特徴的な機能',
+    signatureFeature: '独自の機能',
     modeSwitchTitle: 'チャットと執筆を',
     modeSwitchHighlight: '瞬時に切り替え。',
-    modeSwitchDescription: '従来の日記として始めるか...AIとのチャットを開始してください。記入中でもいつでも2つのモード間を切り替えることができます。他のアプリではできないことです。',
+    modeSwitchDescription: '従来の日記として始めるか...AIとのチャットを開始してください。書いている途中でも、2つのモードをいつでも切り替えられます。他のアプリではできないことです。',
     aiChatMode: 'AIチャットモード',
     freeWritingMode: '自由記述モード',
     aiSample: 'AI: "今日はいかがでしたか？"',
     userSample: 'あなた: "実はとてもストレスが多かったです..."',
     yourThoughts: 'あなたの考え',
-    thoughtSample: '"今日は圧倒的な一日だった。会議のことで不安に感じていたが、予想よりもうまくいった..."',
+    thoughtSample: '"今日は大変な一日だった。会議のことで不安に感じていたが、予想よりもうまくいった..."',
     switchAnytime: '💫 いつでもワンクリックでモード切り替え 💫',
     
     // Features Section
     featuresTitle: '内なる世界を表現する3つの方法',
-    featuresDescription: '日記のスタイルを選択してください：AIガイド付き会話、従来の執筆、または最初に書いてからAIと反省する - すべて感情を探求し、自分自身について新しい洞察を発見するのに役立ちます。',
-    
+    featuresDescription: '日記のスタイルを選択してください：AIガイド付き会話、従来の執筆、または最初に書いてからAIと振り返る - すべて感情を探求し、自分自身について新しい洞察を発見するのに役立ちます。',
+
     // AI Reflection Feature - NEW
-    aiReflectionTitle: '最初に書いて、AIと反省する',
-    aiReflectionDescription: '従来のスタイルで日記エントリを書いた後、AIコンパニオンがあなたの体験について思慮深い反省と洞察を提供するようにしてください。最初に表現してから、より深い意味を一緒に探求することを好む方に最適です。',
+    aiReflectionTitle: '最初に書いて、AIと振り返る',
+    aiReflectionDescription: '従来のスタイルで日記を書いた後、AIコンパニオンがあなたの体験について思慮深い振り返りと洞察を提供します。最初に表現してから、より深い意味を一緒に探求したい方に最適です。',
     reflectionSample: 'AI: "不安を感じてから安心されたとおっしゃいましたが、会議が予想よりもうまくいった理由は何だと思いますか？"',
     
     // AI Chat Feature
@@ -327,27 +327,27 @@ const translations = {
     
     // Traditional Writing Feature
     traditionalWritingTitle: '従来の自由記述',
-    traditionalWritingDescription: 'クラシックな日記の執筆で自由に自分を表現してください。ガイダンスなしでページに考えを注ぎ込んでください - 意識の流れの執筆と個人的な内省に最適です。',
-    yourEntry: 'あなたのエントリ',
+    traditionalWritingDescription: 'クラシックな日記の執筆で自由に自分を表現してください。自由に思いのままに書いてください - 意識の流れの執筆と個人的な内省に最適です。',
+    yourEntry: 'あなたの日記',
     entrySample: '"今日は感情の嵐のような日だった。会議のことで不安な気持ちで目覚めたが、予想よりもうまくいった..."',
     
     // Additional Features Section
-    additionalFeaturesTitle: '日記物語を豊かにする追加機能',
+    additionalFeaturesTitle: '日記体験を豊かにする追加機能',
     additionalFeaturesDescription: '核となる日記体験に加えて、これらの機能がパターンの追跡、思い出の振り返り、持続可能な習慣作りをサポートします。',
-    
+
     // Supporting Features
     moodCalendarTitle: 'ムードカレンダー',
-    moodCalendarDescription: '美しいカレンダービューで日々の感情を追跡してください。気分のパターンを見て、良い日を祝い、困難な日から学びます。',
+    moodCalendarDescription: '美しいカレンダービューで日々の感情を追跡してください。気分のパターンを確認し、良い日を祝い、困難な日から学べます。',
     timelineTitle: 'タイムラインビュー',
-    timelineDescription: '時系列ですべてのエントリを閲覧してください。忘れていた記憶を再発見し、時間の経過とともにどのように成長したかを確認してください。',
+    timelineDescription: 'すべての日記を時系列で振り返れます。忘れていた記憶を再発見し、時間の経過とともにどのように成長したかを確認してください。',
     smartInsightsTitle: 'スマートインサイト',
-    smartInsightsDescription: '日記のパターンからパーソナライズされた洞察を得てください。AIが感情を分析し、ウェルネスの旅のための穏やかなガイダンスを提供します。',
+    smartInsightsDescription: '日記のパターンからパーソナライズされた洞察を得てください。AIが感情を分析し、心の健康をやさしくサポートします。',
     weeklyInsight: '💭 週間インサイト',
     insightSample: '"今週は素晴らしい回復力を示されましたね。小さな勝利を祝うことを考えてみてください..."',
     
     // Daily Limit Feature
     sustainableHabitTitle: '持続可能な日記習慣',
-    sustainableHabitDescription: '1日最大3つのエントリを書くことができます。この穏やかな制限は、圧迫感なく持続可能な日記習慣を築くのに役立ちます。量よりも質。',
+    sustainableHabitDescription: '1日最大3回まで書くことができます。この穏やかな制限は、圧迫感なく持続可能な日記習慣を築くのに役立ちます。量よりも質。',
     
     // AI Understanding Section
     aiUnderstandingTitle: 'あなたを真に理解するAI',
@@ -369,9 +369,9 @@ const translations = {
     story2Quote: '"すべてを内に秘める代わりに、haruと話しました。AIが私の恋愛パターンを見せてくれて、今まで気づかなかったことに気づきました。"',
     story2Author: 'たける、28歳、デザイナー',
     story3Title: '毎日の感謝の練習',
-    story3Quote: '"1日3エントリー？完璧です。朝の意図、昼の振り返り、夜の感謝。これが私のメンタルヘルスルーティンになりました。"',
+    story3Quote: '"1日3回？完璧です。朝の意図、昼の振り返り、夜の感謝。これが私のメンタルヘルスルーティンになりました。"',
     story3Author: 'えま、31歳、教師',
-    
+
     // Trust & Privacy Section
     trustTitle: 'あなたの物語は安全に守られます',
     trustDescription: '私たちはあなたが日記を大切にするのと同じくらい、プライバシーを重要視しています',
@@ -380,15 +380,15 @@ const translations = {
     noAdsTitle: '広告なし、データ販売なし',
     noAdsDescription: '私たちは個人データではなく、サブスクリプションで収益を得ています',
     activeUsers: '50,000+ のアクティブな日記作成者',
-    totalEntries: '200万+ の書かれた日記',
+    totalEntries: '200万+ の日記',
     userRetention: '87%が2週間後も継続',
     
     // Why 3 Entries Section
-    why3EntriesTitle: 'なぜ1日3エントリーまでなの？',
+    why3EntriesTitle: 'なぜ1日3回までなの？',
     why3EntriesDescription: 'haruは持続可能な日記習慣のためにデザインされています',
     reason1Title: '量より質',
     reason1Description: '終わりのない記録より、意味のある瞬間に焦点を当てます',
-    reason2Title: '圧倒感を防ぐ',
+    reason2Title: '負担を軽減',
     reason2Description: 'すべてを書く必要はありません - 最も重要なことだけ',
     reason3Title: '自然な振り返りのリズム',
     reason3Description: '朝の意図、昼のチェックイン、夜の振り返り',
@@ -402,17 +402,17 @@ const translations = {
     
     // CTA Section
     ctaTitle: 'あなたの方法で日記を始めよう',
-    ctaDescription: '思慮深いチャットでも静かな内省でも、haruは両方をサポートします。いつでも切り替えて、一貫性を保ち、自分を再発見してください。',
+    ctaDescription: '思慮深いチャットでも静かな振り返りでも、haruは両方をサポートします。いつでも切り替えて、一貫性を保ち、自分を再発見してください。',
     tryharu: 'haruを試す',
     bothIncluded: '✨ AIチャットと従来の執筆の両方が含まれています',
-    
+
     // Timeline entries
-    eveningReflection: '夜の内省',
+    eveningReflection: '夜の振り返り',
     peacefulEvening: '平和な夜',
-    
+
     // Stats
-    streak: 'ストリーク',
-    entries: 'エントリ数',
+    streak: '継続日数',
+    entries: '日記数',
     sevenDays: '7日',
     thisMonth: '今月23個'
   },
