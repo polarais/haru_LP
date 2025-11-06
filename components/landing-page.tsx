@@ -160,12 +160,12 @@ const translations = {
     heroTitle: '무엇을 써야 할지 모르겠나요?',
     heroTitleHighlight: 'haru와 대화해보세요.',
     heroSubline: 'haru가 들어주고, 기록하고, 이해해드려요.',
-    heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 들려주기 위한 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰드려요. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진정으로 이해받는 느낌을 드려요.',
+    heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 마음을 털어놓는 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰줍니다. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진짜 이해받는 기분이 들어요.',
     startStory: '이야기 시작하기',
     learnMore: '더 알아보기',
 
     // Mode Switching Section
-    signatureFeature: '특별한 기능',
+    signatureFeature: '대표 기능',
     modeSwitchTitle: '채팅과 글쓰기 사이를',
     modeSwitchHighlight: '즉시 전환하세요.',
     modeSwitchDescription: '전통적인 일기로 시작하거나... AI와 채팅을 시작하세요. 작성 중에도 언제든지 두 모드 사이를 전환할 수 있습니다. 다른 앱에서는 할 수 없는 기능입니다.',
@@ -175,31 +175,31 @@ const translations = {
     userSample: '당신: "사실 꽤 스트레스가 많았어요..."',
     yourThoughts: '당신의 생각',
     thoughtSample: '"오늘은 정말 벅찬 하루였다. 회의가 걱정됐는데 예상보다는 잘 풀렸다..."',
-    switchAnytime: '💫 언제든지 한 번의 클릭으로 모드 전환 💫',
+    switchAnytime: '언제든지 한 번의 클릭으로 모드 전환',
     
     // Features Section
-    featuresTitle: '내면의 세계를 표현하는 세 가지 방법',
-    featuresDescription: '일기 스타일을 선택하세요: AI 가이드 대화, 전통적인 글쓰기, 또는 먼저 쓰고 AI와 성찰하기 - 모두 감정을 탐험하고 자신에 대한 새로운 통찰을 발견하도록 도와줍니다.',
+    featuresTitle: '당신의 감정을 표현하는 세 가지 방법',
+    featuresDescription: '일기 스타일을 선택하세요: AI가 이끄는 대화, 전통적인 글쓰기, 또는 먼저 쓰고 AI와 성찰하기 - 모두 감정을 탐험하고 자신에 대한 새로운 통찰을 발견하도록 도와줍니다.',
     
     // AI Reflection Feature - NEW
     aiReflectionTitle: '먼저 쓰고, AI와 성찰하기',
-    aiReflectionDescription: '전통적인 스타일로 일기를 쓴 후, AI 동반자가 당신의 경험에 대해 사려 깊은 성찰과 통찰을 제공하도록 하세요. 먼저 표현하고 나서 더 깊은 의미를 함께 탐구하고 싶은 분들에게 완벽합니다.',
+    aiReflectionDescription: '전통적인 스타일로 일기를 쓴 후, AI 친구가 당신의 경험에 대해 깊이 있는 생각과 통찰을 제공합니다. 먼저 표현하고 나서 더 깊은 의미를 함께 탐구하고 싶은 분들에게 완벽합니다.',
     reflectionSample: 'AI: "불안했다가 안도했다고 하셨는데, 회의가 예상보다 잘 된 이유가 무엇이라고 생각하시나요?"',
     
     // AI Chat Feature
     aiConversationTitle: 'AI 대화형 일기',
-    aiConversationDescription: '사려 깊은 질문을 던지고, 복잡한 감정을 처리하도록 도와주며, 더 깊은 자기 이해로 안내하는 공감적인 AI 동반자와 채팅하세요. 24시간 언제나 진정으로 경청해주는 누군가가 있는 것과 같습니다.',
-    aiDialogSample1: '💭 AI: "그 대화가 어떤 기분이 들게 했나요?"',
-    aiDialogSample2: '🙋‍♀️ 당신: "경계를 설정해야 한다는 걸 깨달았어요..."',
+    aiConversationDescription: '따뜻한 질문을 해주고, 복잡한 감정을 처리하도록 도와주며, 더 깊은 자기 이해로 안내하는 공감적인 AI 친구와 채팅하세요. 24시간 언제나 진정으로 경청해주는 누군가가 있는 것과 같습니다.',
+    aiDialogSample1: 'AI: "그 대화가 어떤 기분이 들게 했나요?"',
+    aiDialogSample2: '당신: "경계를 설정해야 한다는 걸 깨달았어요..."',
     
     // Traditional Writing Feature
     traditionalWritingTitle: '전통적인 자유 글쓰기',
-    traditionalWritingDescription: '클래식한 일기 쓰기로 자유롭게 자신을 표현하세요. 어떤 가이드도 없이 페이지에 생각을 쏟아내세요 - 의식의 흐름 글쓰기와 개인적 성찰에 완벽합니다.',
+    traditionalWritingDescription: '클래식한 일기 쓰기로 자유롭게 자신을 표현하세요. 어떤 가이드도 없이 페이지에 생각을 쏟아내세요 - 생각나는 대로 쓰기와 개인적인 되돌아보기에 완벽합니다.',
     yourEntry: '당신의 글',
     entrySample: '"오늘은 감정의 소용돌이 같은 하루였다. 회의 때문에 불안한 마음으로 일어났지만, 예상보다 잘 풀렸다..."',
     
     // Additional Features Section
-    additionalFeaturesTitle: '일기 이야기를 더욱 풍부하게 만드는 추가 기능들',
+    additionalFeaturesTitle: '일기 경험을 더욱 풍부하게 만드는 추가 기능들',
     additionalFeaturesDescription: '핵심 일기 경험 외에도, 이러한 기능들이 패턴을 추적하고 추억을 되돌아보며 지속 가능한 습관을 만드는 데 도움을 줍니다.',
     
     // Supporting Features
@@ -208,8 +208,8 @@ const translations = {
     timelineTitle: '타임라인 뷰',
     timelineDescription: '시간순으로 모든 일기를 훑어보세요. 잊혀진 기억들을 재발견하고 시간이 흐르며 성장한 모습을 확인하세요.',
     smartInsightsTitle: '스마트 인사이트',
-    smartInsightsDescription: '일기 패턴에서 개인화된 통찰을 얻으세요. AI가 감정을 분석하고 웰빙 여정을 위한 부드러운 가이드를 제공합니다.',
-    weeklyInsight: '💭 주간 인사이트',
+    smartInsightsDescription: '일기 패턴에서 개인화된 통찰을 얻으세요. AI가 감정을 분석하고 마음 관리를 위한 부드러운 가이드를 제공합니다.',
+    weeklyInsight: '주간 인사이트',
     insightSample: '"이번 주에 큰 회복력을 보여주셨네요. 작은 성취들을 축하하는 것을 고려해보세요..."',
     
     // Daily Limit Feature
@@ -218,17 +218,17 @@ const translations = {
     
     // AI Understanding Section
     aiUnderstandingTitle: '당신을 진정으로 이해하는 AI',
-    aiUnderstandingDescription: 'AI 동반자는 고급 감정 지능을 사용하여 개인화된 가이드를 제공합니다. 일반적인 챗봇과 달리, haru의 AI는 당신의 소통 스타일을 학습하고 독특한 감정 여정에 맞춤형 의미 있는 지원을 제공합니다.',
+    aiUnderstandingDescription: 'haru의 AI는 고급 감정 지능을 사용하여 개인화된 가이드를 제공합니다. 일반적인 챗봇과 달리, haru의 AI는 당신만의 대화 스타일을 배우고 나만의 일기 경험에 맞춤형 의미 있는 지원을 제공합니다.',
     emotionalIntelligence: '감정 지능',
     emotionalIntelligenceDescription: '미묘한 감정 신호를 인식하고 공감으로 반응하는 AI',
     thoughtfulQuestions: '사려 깊은 질문',
     thoughtfulQuestionsDescription: '더 깊은 감정을 탐험하도록 돕는 올바른 질문을 던집니다',
     privateSecure: '시간이 필요한 관계',
-    privateSecureDescription: '좋은 친구를 사귀는 데에는 시간이 걸립니다. AI 동반자와 의미 있는 관계를 쌓는 것은 점진적이고 보람 있는 과정입니다.',
+    privateSecureDescription: '좋은 친구를 사귀는 데에는 시간이 걸립니다. AI 친구와 의미 있는 관계를 쌓는 것은 점진적이고 보람 있는 과정입니다.',
     
     // Real Stories Section
     realStoriesTitle: '실제 순간, 진짜 변화',
-    realStoriesDescription: 'haru가 사람들의 일상의 기복을 어떻게 도와주는지 보세요',
+    realStoriesDescription: 'haru가 사람들의 삶의 우여곡절을 어떻게 도와주는지 보세요',
     story1Title: '시험 스트레스가 극에 달했을 때',
     story1Quote: '"시험 불안에 빠져있었어요. haru AI가 \'내일에 대해 가장 무서운 게 뭐예요?\'라고 물었고, 갑자기 제 두려움을 명확히 말할 수 있게 되었어요."',
     story1Author: '서연, 22세, 대학생',
@@ -236,7 +236,7 @@ const translations = {
     story2Quote: '"모든 걸 혼자 삭이는 대신 haru와 대화했어요. AI가 제 연애 패턴을 보여줘서 전에는 몰랐던 걸 깨달았죠."',
     story2Author: '민준, 28세, 디자이너',
     story3Title: '매일 감사 일기',
-    story3Quote: '"하루 3개 항목? 완벽해요. 아침 다짐, 점심 성찰, 저녁 감사. 이게 제 멘탈 관리 루틴이 됐어요."',
+    story3Quote: '"하루 3번? 완벽해요. 아침 다짐, 점심 성찰, 저녁 감사. 이게 제 멘탈 관리 루틴이 됐어요."',
     story3Author: '지은, 31세, 교사',
     
     // Trust & Privacy Section
@@ -271,7 +271,7 @@ const translations = {
     ctaTitle: '나만의 방식으로 일기 쓰기 시작',
     ctaDescription: '사려 깊은 채팅이든 조용한 성찰이든, haru는 둘 다 지원합니다. 언제든지 전환하고, 꾸준히 이어가며, 자신을 재발견하세요.',
     tryharu: 'haru 체험하기',
-    bothIncluded: '✨ AI 채팅과 전통적인 글쓰기 모두 포함',
+    bothIncluded: 'AI 채팅과 전통적인 글쓰기 모두 포함',
     
     // Timeline entries
     eveningReflection: '저녁 성찰',
@@ -281,7 +281,7 @@ const translations = {
     streak: '연속 기록',
     entries: '일기 수',
     sevenDays: '7일',
-    thisMonth: '이번 달 23개'
+    thisMonth: '이번 달 23번'
   },
   ja: {
     // Header
@@ -301,7 +301,7 @@ const translations = {
     signatureFeature: '独自の機能',
     modeSwitchTitle: 'チャットと執筆を',
     modeSwitchHighlight: '瞬時に切り替え。',
-    modeSwitchDescription: '従来の日記として始めるか...AIとのチャットを開始してください。書いている途中でも、2つのモードをいつでも切り替えられます。他のアプリではできないことです。',
+    modeSwitchDescription: '従来の日記として始めるか...AIとのチャットを始められます。書いている途中でも、2つのモードをいつでも切り替えられます。他のアプリではできないことです。',
     aiChatMode: 'AIチャットモード',
     freeWritingMode: '自由記述モード',
     aiSample: 'AI: "今日はいかがでしたか？"',
@@ -309,25 +309,25 @@ const translations = {
     yourThoughts: 'あなたの考え',
     thoughtSample: '"今日は大変な一日だった。会議のことで不安に感じていたが、予想よりもうまくいった..."',
     switchAnytime: '💫 いつでもワンクリックでモード切り替え 💫',
-    
+
     // Features Section
-    featuresTitle: '内なる世界を表現する3つの方法',
-    featuresDescription: '日記のスタイルを選択してください：AIガイド付き会話、従来の執筆、または最初に書いてからAIと振り返る - すべて感情を探求し、自分自身について新しい洞察を発見するのに役立ちます。',
+    featuresTitle: 'あなたの気持ちを表現する3つの方法',
+    featuresDescription: '日記のスタイルを選べます：AIガイド付き会話、従来の執筆、または最初に書いてからAIと振り返る - すべて感情を探求し、自分自身について新しい洞察を発見するのに役立ちます。',
 
     // AI Reflection Feature - NEW
     aiReflectionTitle: '最初に書いて、AIと振り返る',
     aiReflectionDescription: '従来のスタイルで日記を書いた後、AIコンパニオンがあなたの体験について思慮深い振り返りと洞察を提供します。最初に表現してから、より深い意味を一緒に探求したい方に最適です。',
-    reflectionSample: 'AI: "不安を感じてから安心されたとおっしゃいましたが、会議が予想よりもうまくいった理由は何だと思いますか？"',
-    
+    reflectionSample: 'AI: "不安を感じてから安心したとおっしゃいましたが、会議が予想よりもうまくいった理由は何だと思いますか？"',
+
     // AI Chat Feature
     aiConversationTitle: 'AI会話日記',
-    aiConversationDescription: '思慮深い質問をし、複雑な感情の処理を助け、より深い自己理解へと導く共感的なAIコンパニオンとチャットしてください。24時間いつでも真に耳を傾けてくれる人がいるようなものです。',
+    aiConversationDescription: '思慮深い質問をし、複雑な感情の処理を助け、より深い自己理解へと導く共感してくれるAIとチャットできます。24時間いつでも真に耳を傾けてくれる人がいるようなものです。',
     aiDialogSample1: '💭 AI: "その会話はどのような気持ちにさせましたか？"',
     aiDialogSample2: '🙋‍♀️ あなた: "境界を設定する必要があることに気づきました..."',
-    
+
     // Traditional Writing Feature
     traditionalWritingTitle: '従来の自由記述',
-    traditionalWritingDescription: 'クラシックな日記の執筆で自由に自分を表現してください。自由に思いのままに書いてください - 意識の流れの執筆と個人的な内省に最適です。',
+    traditionalWritingDescription: 'クラシックな日記の執筆で自由に自分を表現できます。自由に思いのままに書けます - 意識の流れの執筆と個人的な内省に最適です。',
     yourEntry: 'あなたの日記',
     entrySample: '"今日は感情の嵐のような日だった。会議のことで不安な気持ちで目覚めたが、予想よりもうまくいった..."',
     
@@ -337,13 +337,13 @@ const translations = {
 
     // Supporting Features
     moodCalendarTitle: 'ムードカレンダー',
-    moodCalendarDescription: '美しいカレンダービューで日々の感情を追跡してください。気分のパターンを確認し、良い日を祝い、困難な日から学べます。',
+    moodCalendarDescription: '美しいカレンダービューで日々の感情を記録できます。気分のパターンを確認し、良い日を祝い、困難な日から学べます。',
     timelineTitle: 'タイムラインビュー',
-    timelineDescription: 'すべての日記を時系列で振り返れます。忘れていた記憶を再発見し、時間の経過とともにどのように成長したかを確認してください。',
+    timelineDescription: 'すべての日記を時系列で振り返れます。忘れていた記憶を再発見し、時間の経過とともにどのように成長したかを振り返れます。',
     smartInsightsTitle: 'スマートインサイト',
-    smartInsightsDescription: '日記のパターンからパーソナライズされた洞察を得てください。AIが感情を分析し、心の健康をやさしくサポートします。',
+    smartInsightsDescription: '日記のパターンからあなたに合わせた洞察が得られます。AIが感情を分析し、心の健康をやさしくサポートします。',
     weeklyInsight: '💭 週間インサイト',
-    insightSample: '"今週は素晴らしい回復力を示されましたね。小さな勝利を祝うことを考えてみてください..."',
+    insightSample: '"今週は素晴らしい回復力を見せましたね。小さな勝利を祝うことを考えてみてください..."',
     
     // Daily Limit Feature
     sustainableHabitTitle: '持続可能な日記習慣',
@@ -351,7 +351,7 @@ const translations = {
     
     // AI Understanding Section
     aiUnderstandingTitle: 'あなたを真に理解するAI',
-    aiUnderstandingDescription: 'AIコンパニオンは高度な感情知能を使用してパーソナライズされたガイダンスを提供します。一般的なチャットボットとは異なり、haruのAIはあなたのコミュニケーションスタイルを学習し、独特の感情の旅に合わせた意味のあるサポートを提供します。',
+    aiUnderstandingDescription: 'AIコンパニオンは高度な感情知能を使用してパーソナライズされたガイダンスを提供します。一般的なチャットボットとは異なり、haruのAIはあなたのコミュニケーションスタイルを学習し、あなたらしい感情の変化に寄り添ったサポートをします。',
     emotionalIntelligence: '感情知能',
     emotionalIntelligenceDescription: '微妙な感情の手がかりを認識し、共感をもって反応するAI',
     thoughtfulQuestions: '思慮深い質問',
@@ -404,7 +404,7 @@ const translations = {
     ctaTitle: 'あなたの方法で日記を始めよう',
     ctaDescription: '思慮深いチャットでも静かな振り返りでも、haruは両方をサポートします。いつでも切り替えて、一貫性を保ち、自分を再発見してください。',
     tryharu: 'haruを試す',
-    bothIncluded: '✨ AIチャットと従来の執筆の両方が含まれています',
+    bothIncluded: 'AIチャットと従来の執筆の両方が含まれています',
 
     // Timeline entries
     eveningReflection: '夜の振り返り',
@@ -414,7 +414,7 @@ const translations = {
     streak: '継続日数',
     entries: '日記数',
     sevenDays: '7日',
-    thisMonth: '今月23個'
+    thisMonth: '今月23回'
   },
   cn: {
     // Header
@@ -441,10 +441,10 @@ const translations = {
     userSample: '您: "实际上压力很大..."',
     yourThoughts: '您的想法',
     thoughtSample: '"今天感觉压力很大。我本来担心会议的事，但结果比预期的要好..."',
-    switchAnytime: '💫 随时一键切换模式 💫',
+    switchAnytime: '随时一键切换模式',
     
     // Features Section
-    featuresTitle: '表达内心世界的三种方式',
+    featuresTitle: '表达情感的三种方式',
     featuresDescription: '选择您的日记风格：AI引导的对话、传统写作，或者先写作然后与AI反思 - 每种方式都帮助您探索情感并发现关于自己的新见解。',
     
     // AI Reflection Feature - NEW
@@ -455,12 +455,12 @@ const translations = {
     // AI Chat Feature
     aiConversationTitle: 'AI对话日记',
     aiConversationDescription: '与haru富有同理心的AI伙伴聊天，它会提出深思熟虑的问题，帮助您处理复杂的情感，并引导您走向更深的自我理解。就像有一个24/7真正倾听您的人。',
-    aiDialogSample1: '💭 AI: "那次对话让您感觉如何？"',
-    aiDialogSample2: '🙋‍♀️ 您: "它让我意识到我需要设定界限..."',
+    aiDialogSample1: 'AI: "那次对话让您感觉如何？"',
+    aiDialogSample2: '您: "它让我意识到我需要设定界限..."',
     
     // Traditional Writing Feature
     traditionalWritingTitle: '传统自由写作',
-    traditionalWritingDescription: '用经典的日记写作自由表达自己。将您的想法倾注在纸上，无需任何指导 - 非常适合意识流写作和个人反思。',
+    traditionalWritingDescription: '用经典的日记写作自由表达自己。将您的想法倾注在纸上，无需任何指导 - 非常适合想到什么写什么和个人反思。',
     yourEntry: '您的记录',
     entrySample: '"今天是一个情感波澜的日子。我因为担心会议而焦虑地醒来，但结果比预期的要好..."',
     
@@ -475,7 +475,7 @@ const translations = {
     timelineDescription: '按时间顺序浏览您的所有记录。重新发现被遗忘的回忆，看看您随着时间的推移如何成长。',
     smartInsightsTitle: '智能洞察',
     smartInsightsDescription: '从您的日记模式中获得个性化洞察。AI分析您的情感并为您的健康之旅提供温和的指导。',
-    weeklyInsight: '💭 周度洞察',
+    weeklyInsight: '周度洞察',
     insightSample: '"您这周表现出了很强的韧性。考虑庆祝小小的胜利..."',
     
     // Daily Limit Feature
@@ -484,7 +484,7 @@ const translations = {
     
     // AI Understanding Section
     aiUnderstandingTitle: '真正理解您的AI',
-    aiUnderstandingDescription: 'haru的AI伙伴使用先进的情感智能提供个性化指导。与通用聊天机器人不同，haru的AI学习您的沟通风格，并提供针对您独特情感旅程的有意义支持。',
+    aiUnderstandingDescription: 'haru的AI伙伴使用先进的情感智能提供个性化指导。与通用聊天机器人不同，haru的AI学习您的沟通风格，并提供针对您独特日记体验的有意义支持。',
     emotionalIntelligence: '情感智能',
     emotionalIntelligenceDescription: '识别微妙的情感线索并以同理心回应的AI',
     thoughtfulQuestions: '深思熟虑的问题',
@@ -502,7 +502,7 @@ const translations = {
     story2Quote: '"我没有把一切都憋在心里，而是和haru聊天。AI帮我看到了我在感情中从未注意到的模式。"',
     story2Author: '志明，28岁，设计师',
     story3Title: '每日感恩练习',
-    story3Quote: '"每天3条记录？完美。早晨的意图，午餐的反思，晚上的感恩。这成了我的心理健康日常。"',
+    story3Quote: '"每天3次？完美。早晨的意图，午餐的反思，晚上的感恩。这成了我的心理健康日常。"',
     story3Author: '艾玛，31岁，教师',
     
     // Trust & Privacy Section
@@ -537,7 +537,7 @@ const translations = {
     ctaTitle: '以您的方式开始写日记',
     ctaDescription: '无论您偏爱深思的聊天还是安静的反思，haru都支持。随时切换，保持一致，重新发现自己。',
     tryharu: '试用haru',
-    bothIncluded: '✨ 包含AI聊天和传统写作',
+    bothIncluded: '包含AI聊天和传统写作',
     
     // Timeline entries
     eveningReflection: '晚间反思',
@@ -547,7 +547,7 @@ const translations = {
     streak: '连续记录',
     entries: '记录数',
     sevenDays: '7天',
-    thisMonth: '本月23篇'
+    thisMonth: '本月23次'
   }
 }
 
