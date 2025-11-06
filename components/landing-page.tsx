@@ -234,10 +234,10 @@ const translations = {
     story1Author: '서연, 22세, 대학생',
     story2Title: '힘든 이별 후',
     story2Quote: '"모든 걸 혼자 삭이는 대신 haru와 대화했어요. AI가 제 연애 패턴을 보여줘서 전에는 몰랐던 걸 깨달았죠."',
-    story2Author: '민준, 28세, 디자이너',
+    story2Author: '타케시, 28세, 디자이너',
     story3Title: '매일 감사 일기',
     story3Quote: '"하루 3번? 완벽해요. 아침 다짐, 점심 성찰, 저녁 감사. 이게 제 멘탈 관리 루틴이 됐어요."',
-    story3Author: '지은, 31세, 교사',
+    story3Author: '민지, 31세, 교사',
     
     // Trust & Privacy Section
     trustTitle: '당신의 이야기는 안전하게 보호됩니다',
@@ -364,13 +364,13 @@ const translations = {
     realStoriesDescription: 'haruがどのように人々の日常の浮き沈みを助けているかご覧ください',
     story1Title: '試験のストレスがピークに達した時',
     story1Quote: '"試験の不安に溺れていました。haruのAIが「明日について一番怖いことは何？」と聞いてくれて、突然、自分の恐怖を言葉にして向き合えるようになりました。"',
-    story1Author: 'さくら、22歳、大学生',
+    story1Author: 'ソヨン、22歳、大学生',
     story2Title: 'つらい別れの後',
     story2Quote: '"すべてを内に秘める代わりに、haruと話しました。AIが私の恋愛パターンを見せてくれて、今まで気づかなかったことに気づきました。"',
-    story2Author: 'たける、28歳、デザイナー',
+    story2Author: 'たけし、28歳、デザイナー',
     story3Title: '毎日の感謝の練習',
     story3Quote: '"1日3回？完璧です。朝の意図、昼の振り返り、夜の感謝。これが私のメンタルヘルスルーティンになりました。"',
-    story3Author: 'えま、31歳、教師',
+    story3Author: 'ミンジ、31歳、教師',
 
     // Trust & Privacy Section
     trustTitle: 'あなたの物語は安全に守られます',
@@ -497,13 +497,13 @@ const translations = {
     realStoriesDescription: '看看haru如何帮助人们度过生活的起起伏伏',
     story1Title: '当考试压力达到顶峰时',
     story1Quote: '"我被考试焦虑淹没了。haru的AI问我\'明天最可怕的部分是什么？\'突然间，我能说出我的恐惧并克服它。"',
-    story1Author: '小雪，22岁，大学生',
+    story1Author: '素妍，22岁，大学生',
     story2Title: '艰难的分手之后',
     story2Quote: '"我没有把一切都憋在心里，而是和haru聊天。AI帮我看到了我在感情中从未注意到的模式。"',
-    story2Author: '志明，28岁，设计师',
+    story2Author: '武志，28岁，设计师',
     story3Title: '每日感恩练习',
     story3Quote: '"每天3次？完美。早晨的意图，午餐的反思，晚上的感恩。这成了我的心理健康日常。"',
-    story3Author: '艾玛，31岁，教师',
+    story3Author: '敏智，31岁，教师',
     
     // Trust & Privacy Section
     trustTitle: '您的故事得到安全保护',
