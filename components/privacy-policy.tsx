@@ -216,7 +216,7 @@ const translations = {
     questionsDesc1: '我们很乐意回答有关隐私保护和数据的任何问题。',
     questionsDesc2: '电子邮件:',
     questionsDesc3: '我们通常在24小时内回复。',
-    policyUpdates: '政策更新',
+    policyUpdates: '政策变更',
     policyUpdatesDesc: '隐私政策可能会根据需要进行更新。变更时我们会通过电子邮件通知您，并更新顶部的"最后更新"日期。变更后继续使用haru即表示您同意新条款。'
   }
 }

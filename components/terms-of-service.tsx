@@ -352,7 +352,7 @@ const translations = {
     governingDesc: '本条款受大韩民国法律管辖。我们会在采取法律行动之前尝试友好解决任何争议。',
 
     // Updates
-    termsUpdatesTitle: '条款更新',
+    termsUpdatesTitle: '条款变更',
     termsUpdatesDesc: '我们可能会不时更新这些条款以反映服务变更或法律要求。我们会在重大变更生效前至少30天通过电子邮件和应用通知您。您继续使用haru即表示您接受更新的条款。'
   }
 }
