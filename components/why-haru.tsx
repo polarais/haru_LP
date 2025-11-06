@@ -8,6 +8,7 @@ type Language = 'en' | 'ko' | 'ja' | 'cn'
 
 const translations = {
   en: {
+    back: 'Back',
     whyHaruTitle: 'Why "haru"?',
     whyHaruDescription1: '"haru" means "a day" in Korean.',
     whyHaruDescription2: 'We named this app haru because every day — no matter how quiet or messy — deserves to be remembered, reflected on, and honored.',
@@ -16,6 +17,7 @@ const translations = {
     getStarted: 'Start Your Journey'
   },
   ko: {
+    back: '뒤로',
     whyHaruTitle: '왜 "하루"일까요?',
     whyHaruDescription1: '"하루"는 한국어로 "a day"를 의미합니다.',
     whyHaruDescription2: '우리는 이 앱을 haru라고 이름 지었습니다. 조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
@@ -24,6 +26,7 @@ const translations = {
     getStarted: '여정 시작하기'
   },
   ja: {
+    back: '戻る',
     whyHaruTitle: 'なぜ「haru」？',
     whyHaruDescription1: '「haru」は韓国語で「a day（一日）」を意味します。',
     whyHaruDescription2: '私たちはこのアプリをharuと名付けました。どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
@@ -32,6 +35,7 @@ const translations = {
     getStarted: '旅を始める'
   },
   cn: {
+    back: '返回',
     whyHaruTitle: '为什么叫"haru"？',
     whyHaruDescription1: '"haru"在韩语中意为"一天"。',
     whyHaruDescription2: '我们将这个应用命名为haru，因为每一天——无论多么平静或混乱——都值得被记住、被反思、被珍惜。',
@@ -83,7 +87,7 @@ export function WhyHaru() {
             className="py-2 text-gray-600 hover:text-gray-800 transition-colors"
             style={{marginLeft: '0'}}
           >
-            ← Back
+            ← {t.back}
           </button>
         </div>
       </header>

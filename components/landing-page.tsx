@@ -20,6 +20,7 @@ const translations = {
   en: {
     // Header
     getStarted: 'Get Started',
+    featured: 'Featured',
     
     // Hero Section
     tagline: 'AI-Powered Personal Diary',
@@ -152,6 +153,7 @@ const translations = {
   ko: {
     // Header
     getStarted: '시작하기',
+    featured: '추천',
     
     // Hero Section
     tagline: 'AI 기반 개인 일기',
@@ -284,6 +286,7 @@ const translations = {
   ja: {
     // Header
     getStarted: '始める',
+    featured: 'おすすめ',
     
     // Hero Section
     tagline: 'AI搭載パーソナル日記',
@@ -416,6 +419,7 @@ const translations = {
   cn: {
     // Header
     getStarted: '开始使用',
+    featured: '推荐',
     
     // Hero Section
     tagline: 'AI驱动的个人日记',
@@ -829,7 +833,7 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
           >
             {/* Featured badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs">
-              Featured
+              {t.featured}
             </div>
             
             <div className="w-12 h-12 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl flex items-center justify-center mb-6">
@@ -908,7 +912,7 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
           >
             {/* Featured badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-rose-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs">
-              Featured
+              {t.featured}
             </div>
             
             <div className="w-12 h-12 bg-gradient-to-r from-rose-100 to-orange-100 rounded-xl flex items-center justify-center mb-6">
