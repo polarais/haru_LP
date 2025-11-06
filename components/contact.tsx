@@ -1,10 +1,40 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Heart, Mail, MessageCircle, Clock, Send, CheckCircle, User, HelpCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 
+type Language = 'en' | 'ko' | 'ja' | 'cn'
+
+const translations = {
+  en: {
+    back: 'Back',
+    badge: 'Contact Us',
+    title: 'Get in Touch',
+    subtitle: 'Have questions or feedback? We\'d love to hear from you.',
+  },
+  ko: {
+    back: '뒤로',
+    badge: '문의하기',
+    title: '연락하기',
+    subtitle: '질문이나 피드백이 있으신가요? 언제든지 연락주세요.',
+  },
+  ja: {
+    back: '戻る',
+    badge: 'お問い合わせ',
+    title: 'お問い合わせ',
+    subtitle: 'ご質問やフィードバックがありますか？お気軽にご連絡ください。',
+  },
+  cn: {
+    back: '返回',
+    badge: '联系我们',
+    title: '联系我们',
+    subtitle: '有问题或反馈？我们很乐意听取您的意见。',
+  }
+}
+
 export function Contact() {
+  const [currentLanguage, setCurrentLanguage] = useState<Language>('en')
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,6 +42,15 @@ export function Contact() {
     message: ''
   })
   const [isSubmitted, setIsSubmitted] = useState(false)
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('haru-language') as Language
+    if (savedLanguage && ['en', 'ko', 'ja', 'cn'].includes(savedLanguage)) {
+      setCurrentLanguage(savedLanguage)
+    }
+  }, [])
+
+  const t = translations[currentLanguage]
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -41,7 +80,7 @@ export function Contact() {
             className="py-2 text-gray-600 hover:text-gray-800 transition-colors"
             style={{marginLeft: '0'}}
           >
-            ← Back
+            ← {t.back}
           </button>
         </div>
       </header>
@@ -57,13 +96,13 @@ export function Contact() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-100 to-purple-100 text-pink-700 px-4 py-2 rounded-full mb-6">
               <MessageCircle className="w-4 h-4" />
-              <span className="text-sm">Contact Us</span>
+              <span className="text-sm">{t.badge}</span>
             </div>
             <h1 className="text-3xl lg:text-4xl text-gray-800 mb-4 font-bold">
-              We'd Love to Hear From You
+              {t.title}
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Questions, feedback, or just want to say hi? We're here to help and always excited to connect with our haru community.
+              {t.subtitle}
             </p>
           </div>
 

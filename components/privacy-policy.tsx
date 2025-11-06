@@ -1,10 +1,54 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Heart, Shield, Lock, Eye, Database, Globe, FileText, User, BarChart3, Download, Trash2, Edit, Pause, Check, X, Building2, Users } from 'lucide-react'
 import { motion } from 'framer-motion'
 
+type Language = 'en' | 'ko' | 'ja' | 'cn'
+
+const translations = {
+  en: {
+    back: 'Back',
+    badge: 'Privacy Policy',
+    title: 'Your Privacy Matters',
+    subtitle: 'We believe your diary entries are sacred. Here\'s how we protect them.',
+    lastUpdated: 'Last updated: November 2025'
+  },
+  ko: {
+    back: '뒤로',
+    badge: '개인정보 처리방침',
+    title: '당신의 프라이버시가 중요합니다',
+    subtitle: '일기는 신성한 것입니다. 우리가 어떻게 보호하는지 알려드립니다.',
+    lastUpdated: '최종 업데이트: 2025년 11월'
+  },
+  ja: {
+    back: '戻る',
+    badge: 'プライバシーポリシー',
+    title: 'あなたのプライバシーを大切に',
+    subtitle: '日記は神聖なものだと考えています。私たちがどのように保護しているかをご説明します。',
+    lastUpdated: '最終更新: 2025年11月'
+  },
+  cn: {
+    back: '返回',
+    badge: '隐私政策',
+    title: '您的隐私很重要',
+    subtitle: '我们认为您的日记是神圣的。以下是我们如何保护它们。',
+    lastUpdated: '最后更新：2025年11月'
+  }
+}
+
 export function PrivacyPolicy() {
+  const [currentLanguage, setCurrentLanguage] = useState<Language>('en')
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('haru-language') as Language
+    if (savedLanguage && ['en', 'ko', 'ja', 'cn'].includes(savedLanguage)) {
+      setCurrentLanguage(savedLanguage)
+    }
+  }, [])
+
+  const t = translations[currentLanguage]
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-orange-50">
       {/* Header */}
@@ -19,7 +63,7 @@ export function PrivacyPolicy() {
             className="py-2 text-gray-600 hover:text-gray-800 transition-colors"
             style={{marginLeft: '0'}}
           >
-            ← Back
+            ← {t.back}
           </button>
         </div>
       </header>
@@ -35,16 +79,16 @@ export function PrivacyPolicy() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-100 to-purple-100 text-pink-700 px-4 py-2 rounded-full mb-6">
               <Shield className="w-4 h-4" />
-              <span className="text-sm">Privacy Policy</span>
+              <span className="text-sm">{t.badge}</span>
             </div>
             <h1 className="text-3xl lg:text-4xl text-gray-800 mb-4 font-bold">
-              Your Privacy Matters
+              {t.title}
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We believe your diary entries are sacred. Here's how we protect them.
+              {t.subtitle}
             </p>
             <p className="text-sm text-gray-500 mt-4">
-              Last updated: November 2025
+              {t.lastUpdated}
             </p>
           </div>
 

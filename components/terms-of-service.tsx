@@ -1,10 +1,54 @@
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Heart, FileText, Users, AlertTriangle, CheckCircle, XCircle, Check, X, User, Smartphone, Target, CreditCard, RefreshCw, Phone, Bot, Shield, Mail, Scale, RotateCcw, Square } from 'lucide-react'
 import { motion } from 'framer-motion'
 
+type Language = 'en' | 'ko' | 'ja' | 'cn'
+
+const translations = {
+  en: {
+    back: 'Back',
+    badge: 'Terms of Service',
+    title: 'Terms of Service',
+    subtitle: 'Simple, fair terms for using haru. We believe in keeping things straightforward.',
+    lastUpdated: 'Last updated: November 2025'
+  },
+  ko: {
+    back: '뒤로',
+    badge: '이용약관',
+    title: '이용약관',
+    subtitle: 'haru를 사용하기 위한 간단하고 공정한 약관입니다. 우리는 간단명료함을 추구합니다.',
+    lastUpdated: '최종 업데이트: 2025년 11월'
+  },
+  ja: {
+    back: '戻る',
+    badge: '利用規約',
+    title: '利用規約',
+    subtitle: 'haruを使用するためのシンプルで公正な規約です。私たちは物事をわかりやすく保つことを信じています。',
+    lastUpdated: '最終更新: 2025年11月'
+  },
+  cn: {
+    back: '返回',
+    badge: '服务条款',
+    title: '服务条款',
+    subtitle: '使用haru的简单、公平条款。我们相信保持简单明了。',
+    lastUpdated: '最后更新：2025年11月'
+  }
+}
+
 export function TermsOfService() {
+  const [currentLanguage, setCurrentLanguage] = useState<Language>('en')
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('haru-language') as Language
+    if (savedLanguage && ['en', 'ko', 'ja', 'cn'].includes(savedLanguage)) {
+      setCurrentLanguage(savedLanguage)
+    }
+  }, [])
+
+  const t = translations[currentLanguage]
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-orange-50">
       {/* Header */}
@@ -19,7 +63,7 @@ export function TermsOfService() {
             className="py-2 text-gray-600 hover:text-gray-800 transition-colors"
             style={{marginLeft: '0'}}
           >
-            ← Back
+            ← {t.back}
           </button>
         </div>
       </header>
@@ -35,16 +79,16 @@ export function TermsOfService() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-100 to-purple-100 text-pink-700 px-4 py-2 rounded-full mb-6">
               <FileText className="w-4 h-4" />
-              <span className="text-sm">Terms of Service</span>
+              <span className="text-sm">{t.badge}</span>
             </div>
             <h1 className="text-3xl lg:text-4xl text-gray-800 mb-4 font-bold">
-              Terms of Service
+              {t.title}
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Simple, fair terms for using haru. We believe in keeping things straightforward.
+              {t.subtitle}
             </p>
             <p className="text-sm text-gray-500 mt-4">
-              Last updated: November 2025
+              {t.lastUpdated}
             </p>
           </div>
 
