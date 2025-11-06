@@ -154,11 +154,11 @@ const translations = {
     // Header
     getStarted: '시작하기',
     featured: '추천',
-    
+
     // Hero Section
     tagline: 'AI 기반 개인 일기',
     heroTitle: '무엇을 써야 할지 모르겠나요?',
-    heroTitleHighlight: '그냥 적어보세요.',
+    heroTitleHighlight: 'haru와 대화해보세요.',
     heroSubline: 'haru가 들어주고, 기록하고, 이해해드려요.',
     heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 들려주기 위한 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰드려요. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진정으로 이해받는 느낌을 드려요.',
     startStory: '이야기 시작하기',
@@ -262,8 +262,8 @@ const translations = {
     
     // Why Haru Section
     whyHaruTitle: '왜 "하루"일까요?',
-    whyHaruDescription1: '"하루"는 한국어로 "a day"를 의미합니다.',
-    whyHaruDescription2: '우리는 이 앱을 haru라고 이름 지었습니다. 조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
+    whyHaruDescription1: '"하루"는 하루하루를 의미합니다.',
+    whyHaruDescription2: '조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
     whyHaruDescription3: '어떤 날은 글을 써야 하고,\n어떤 날은 그저 누군가가 들어주길 원하죠.',
     whyHaruDescription4: 'haru는 그 둘 모두를 위해 있습니다.\n당신의 감정을 담아두고,\n하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',
     
@@ -287,11 +287,11 @@ const translations = {
     // Header
     getStarted: '始める',
     featured: 'おすすめ',
-    
+
     // Hero Section
     tagline: 'AI搭載パーソナル日記',
     heroTitle: '何を書けばいいかわからない？',
-    heroTitleHighlight: 'ただ話してください。',
+    heroTitleHighlight: 'haruと話してみてください。',
     heroSubline: 'haruが聞いて、記録して、理解してくれます。',
     heroDescription: 'haruは単なる書くためのものではありません — 聞いてもらうための場所です。自由に話すか静かに書くか — haruが優しく寄り添います。思いやりのあるAIチャットやクラシック日記モードで、大切な気持ちを整理し、本当に理解されている実感をお届けします。',
     startStory: '物語を始める',
@@ -395,8 +395,8 @@ const translations = {
     
     // Why Haru Section
     whyHaruTitle: 'なぜ「haru」？',
-    whyHaruDescription1: '「haru」は韓国語で「a day（一日）」を意味します。',
-    whyHaruDescription2: '私たちはこのアプリをharuと名付けました。どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
+    whyHaruDescription1: '「haru」は韓国語で「一日」を意味します。',
+    whyHaruDescription2: 'どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
     whyHaruDescription3: 'ある日は書く必要があり、\nある日はただ誰かに聞いてもらいたい。',
     whyHaruDescription4: 'haruは両方のためにここにいます。\nあなたの感情を受け止め、\n一日一日、本当に見えて、聞こえて、理解されていると感じさせるために。',
     
@@ -420,11 +420,11 @@ const translations = {
     // Header
     getStarted: '开始使用',
     featured: '推荐',
-    
+
     // Hero Section
     tagline: 'AI驱动的个人日记',
     heroTitle: '不知道写什么？',
-    heroTitleHighlight: '就讲讲吧。',
+    heroTitleHighlight: '和haru聊聊吧。',
     heroSubline: 'haru会倾听您的心声，记录您的想法，理解您的感受。',
     heroDescription: 'haru不只是用来写作的 — 这是一个被倾听的地方。自由地说话或安静地写作 — haru温柔地适应您。通过贴心的AI聊天或经典日记模式，haru帮您整理重要的想法，让您真正感受到被理解。',
     startStory: '开始你的故事',

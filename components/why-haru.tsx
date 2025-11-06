@@ -19,8 +19,8 @@ const translations = {
   ko: {
     back: '뒤로',
     whyHaruTitle: '왜 "하루"일까요?',
-    whyHaruDescription1: '"하루"는 한국어로 "a day"를 의미합니다.',
-    whyHaruDescription2: '우리는 이 앱을 haru라고 이름 지었습니다. 조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
+    whyHaruDescription1: '"하루"는 하루하루를 의미합니다.',
+    whyHaruDescription2: '조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
     whyHaruDescription3: '어떤 날은 글을 써야 하고,\n어떤 날은 그저 누군가가 들어주길 원하죠.',
     whyHaruDescription4: 'haru는 그 둘 모두를 위해 있습니다.\n당신의 감정을 담아두고,\n하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',
     getStarted: '여정 시작하기'
@@ -28,8 +28,8 @@ const translations = {
   ja: {
     back: '戻る',
     whyHaruTitle: 'なぜ「haru」？',
-    whyHaruDescription1: '「haru」は韓国語で「a day（一日）」を意味します。',
-    whyHaruDescription2: '私たちはこのアプリをharuと名付けました。どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
+    whyHaruDescription1: '「haru」は韓国語で「一日」を意味します。',
+    whyHaruDescription2: 'どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
     whyHaruDescription3: 'ある日は書く必要があり、\nある日はただ誰かに聞いてもらいたい。',
     whyHaruDescription4: 'haruは両方のためにここにいます。\nあなたの感情を受け止め、\n一日一日、本当に見えて、聞こえて、理解されていると感じさせるために。',
     getStarted: '旅を始める'
