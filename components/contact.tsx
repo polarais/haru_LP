@@ -182,8 +182,8 @@ export function Contact() {
               </div>
               <h3 className="text-lg text-gray-800 mb-2">Email Support</h3>
               <p className="text-sm text-gray-600 mb-3">Get help with your account, billing, or technical issues</p>
-              <a href="mailto:support@haru-diary.com" className="text-pink-600 hover:text-pink-700 font-medium">
-                support@haru-diary.com
+              <a href="mailto:support@polaris-lab.net" className="text-pink-600 hover:text-pink-700 font-medium">
+                support@polaris-lab.net
               </a>
             </div>
 
@@ -193,8 +193,8 @@ export function Contact() {
               </div>
               <h3 className="text-lg text-gray-800 mb-2">General Inquiries</h3>
               <p className="text-sm text-gray-600 mb-3">Questions about features, partnerships, or media requests</p>
-              <a href="mailto:hello@haru-diary.com" className="text-pink-600 hover:text-pink-700 font-medium">
-                hello@haru-diary.com
+              <a href="mailto:support@polaris-lab.net" className="text-pink-600 hover:text-pink-700 font-medium">
+                support@polaris-lab.net
               </a>
             </div>
 

@@ -325,7 +325,7 @@ export function TermsOfService() {
                     Contact Us
                   </h3>
                   <p className="text-gray-600">
-                    Questions about these terms? Email us at <a href="mailto:legal@haru-diary.com" className="text-pink-600 hover:text-pink-700">legal@haru-diary.com</a>
+                    Questions about these terms? Email us at <a href="mailto:support@polaris-lab.net" className="text-pink-600 hover:text-pink-700">support@polaris-lab.net</a>
                   </p>
                 </div>
                 <div>

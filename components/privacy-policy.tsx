@@ -246,7 +246,7 @@ export function PrivacyPolicy() {
                   We're happy to answer any questions about your privacy and data protection.
                 </p>
                 <p className="text-gray-600">
-                  Email us at: <a href="mailto:privacy@haru-diary.com" className="text-pink-600 hover:text-pink-700">privacy@haru-diary.com</a>
+                  Email us at: <a href="mailto:support@polaris-lab.net" className="text-pink-600 hover:text-pink-700">support@polaris-lab.net</a>
                 </p>
                 <p className="text-gray-600 mt-2">
                   We typically respond within 24 hours.
