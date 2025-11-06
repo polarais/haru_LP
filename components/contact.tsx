@@ -196,9 +196,9 @@ const translations = {
     categoryLabel: '我们可以为您提供什么帮助？',
     categoryPlaceholder: '选择类别',
     categoryTechnical: '技术支持',
-    categoryBilling: '账单和订阅',
+    categoryBilling: '付费与订阅',
     categoryFeature: '功能请求',
-    categoryBug: '错误报告',
+    categoryBug: 'Bug报告',
     categoryPrivacy: '隐私和安全',
     categoryFeedback: '一般反馈',
     categoryOther: '其他',
@@ -209,11 +209,11 @@ const translations = {
     // Success
     successTitle: '消息已发送！',
     successMessage: '感谢您与我们联系。我们已收到您的消息，将在24小时内回复您。',
-    sendAnother: '发送其他消息',
+    sendAnother: '发送另一条消息',
 
     // Contact Methods
     emailSupportTitle: '电子邮件支持',
-    emailSupportDesc: '获取有关账户、计费或技术问题的帮助',
+    emailSupportDesc: '获取有关账户、付费或技术问题的帮助',
     generalInquiriesTitle: '一般咨询',
     generalInquiriesDesc: '有关功能、合作伙伴关系或媒体请求的问题',
     responseTimeTitle: '响应时间',
