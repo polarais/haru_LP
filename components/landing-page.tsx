@@ -163,8 +163,7 @@ const translations = {
     heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 들려주기 위한 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰드려요. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진정으로 이해받는 느낌을 드려요.',
     startStory: '이야기 시작하기',
     learnMore: '더 알아보기',
-    whyHaruDescription1: '"haru" means "a day" in Korean.',
-    
+
     // Mode Switching Section
     signatureFeature: '특별한 기능',
     modeSwitchTitle: '채팅과 글쓰기 사이를',
@@ -668,8 +667,8 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
       </header>
 
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-4 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <section className="max-w-7xl mx-auto px-4 py-16 lg:py-24">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
