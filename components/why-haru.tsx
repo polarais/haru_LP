@@ -10,7 +10,7 @@ const translations = {
   en: {
     back: 'Back',
     whyHaruTitle: 'Why "haru"?',
-    whyHaruDescription1: '"haru" means "a day" in Korean.',
+    whyHaruDescription1: '"haru"는 하루하루를 의미합니다.',
     whyHaruDescription2: 'We named this app haru because every day — no matter how quiet or messy — deserves to be remembered, reflected on, and honored.',
     whyHaruDescription3: 'Some days you need to write.\nSome days you just need someone to listen.',
     whyHaruDescription4: 'haru is here for both.\nTo hold space for your emotions.\nTo help you feel seen, heard, and understood — one day at a time.',
@@ -19,7 +19,7 @@ const translations = {
   ko: {
     back: '뒤로',
     whyHaruTitle: '왜 "하루"일까요?',
-    whyHaruDescription1: '"하루"는 하루하루를 의미합니다.',
+    whyHaruDescription1: '"haru"는 하루하루를 의미합니다.',
     whyHaruDescription2: '조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
     whyHaruDescription3: '어떤 날은 글을 써야 하고,\n어떤 날은 그저 누군가가 들어주길 원하죠.',
     whyHaruDescription4: 'haru는 그 둘 모두를 위해 있습니다.\n당신의 감정을 담아두고,\n하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',

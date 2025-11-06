@@ -163,6 +163,7 @@ const translations = {
     heroDescription: 'haru는 단순한 글쓰기가 아닙니다 — 들려주기 위한 공간이에요. 자유롭게 말하거나 조용히 써보세요 — haru가 부드럽게 맞춰드려요. 따뜻한 AI 채팅이나 클래식 일기 모드로, 소중한 마음을 정리하고 진정으로 이해받는 느낌을 드려요.',
     startStory: '이야기 시작하기',
     learnMore: '더 알아보기',
+    whyHaruDescription1: '"haru" means "a day" in Korean.',
     
     // Mode Switching Section
     signatureFeature: '특별한 기능',
@@ -262,7 +263,7 @@ const translations = {
     
     // Why Haru Section
     whyHaruTitle: '왜 "하루"일까요?',
-    whyHaruDescription1: '"하루"는 하루하루를 의미합니다.',
+    whyHaruDescription1: '"haru"는 하루하루를 의미합니다.',
     whyHaruDescription2: '조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
     whyHaruDescription3: '어떤 날은 글을 써야 하고,\n어떤 날은 그저 누군가가 들어주길 원하죠.',
     whyHaruDescription4: 'haru는 그 둘 모두를 위해 있습니다.\n당신의 감정을 담아두고,\n하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',
@@ -690,9 +691,7 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
             </h2>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              {highlightHaru(`haru means '`)}
-              <strong>a day</strong>
-              {highlightHaru(`' in Korean.`)}
+              {highlightHaru(t.whyHaruDescription1)}
               <br />
               {highlightHaru(t.heroDescription)}
             </p>
