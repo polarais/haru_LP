@@ -10,10 +10,9 @@ const translations = {
   en: {
     back: 'Back',
     whyHaruTitle: 'Why "haru"?',
-    whyHaruDescription1: '"haru"는 하루하루를 의미합니다.',
+    whyHaruDescription1: '"haru" means "one day" in Korean.',
     whyHaruDescription2: 'We named this app haru because every day — no matter how quiet or messy — deserves to be remembered, reflected on, and honored.',
-    whyHaruDescription3: 'Some days you need to write.\nSome days you just need someone to listen.',
-    whyHaruDescription4: 'haru is here for both.\nTo hold space for your emotions.\nTo help you feel seen, heard, and understood — one day at a time.',
+    whyHaruDescription3: 'Some days you need to write. Some days you just need someone to listen. haru is here for both — to help you feel seen, heard, and understood, one day at a time.',
     getStarted: 'Start Your Journey',
 
     // How to Use Guide
@@ -95,8 +94,7 @@ const translations = {
     whyHaruTitle: '왜 "하루"일까요?',
     whyHaruDescription1: '"haru"는 하루하루를 의미합니다.',
     whyHaruDescription2: '조용하든 어지럽든, 모든 하루는 기억되고, 성찰되고, 소중히 여겨질 자격이 있으니까요.',
-    whyHaruDescription3: '어떤 날은 글을 써야 하고,\n어떤 날은 그저 누군가가 들어주길 원하죠.',
-    whyHaruDescription4: 'haru는 그 둘 모두를 위해 있습니다.\n당신의 감정을 담아두고,\n하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',
+    whyHaruDescription3: '어떤 날은 글을 써야 하고, 어떤 날은 그저 누군가가 들어주길 원하죠. haru는 그 둘 모두를 위해 있습니다. 하루하루 진정으로 보이고, 들리고, 이해받는 느낌을 드리기 위해.',
     getStarted: '여정 시작하기',
 
     // How to Use Guide
@@ -178,8 +176,7 @@ const translations = {
     whyHaruTitle: 'なぜ「haru」？',
     whyHaruDescription1: '「haru」は韓国語で「一日」を意味します。',
     whyHaruDescription2: 'どんなに静かでも、どんなに混沌としていても、すべての一日は記憶され、振り返られ、大切にされる価値があるからです。',
-    whyHaruDescription3: 'ある日は書く必要があり、\nある日はただ誰かに聞いてもらいたい。',
-    whyHaruDescription4: 'haruは両方のためにここにいます。\nあなたの感情を受け止め、\n一日一日、本当に見えて、聞こえて、理解されていると感じさせるために。',
+    whyHaruDescription3: 'ある日は書く必要があり、ある日はただ誰かに聞いてもらいたい。haruは両方のためにここにいます。一日一日、本当に見えて、聞こえて、理解されていると感じさせるために。',
     getStarted: '旅を始める',
 
     // How to Use Guide
@@ -261,8 +258,7 @@ const translations = {
     whyHaruTitle: '为什么叫"haru"？',
     whyHaruDescription1: '"haru"在韩语中意为"一天"。',
     whyHaruDescription2: '我们将这个应用命名为haru，因为每一天——无论多么平静或混乱——都值得被记住、被反思、被珍惜。',
-    whyHaruDescription3: '有些日子你需要写作。\n有些日子你只需要有人倾听。',
-    whyHaruDescription4: 'haru为这两者而存在。\n为您的情感留出空间。\n帮助您感受到被看见、被听见、被理解——一天一天地。',
+    whyHaruDescription3: '有些日子你需要写作。有些日子你只需要有人倾听。haru为这两者而存在——帮助您感受到被看见、被听见、被理解，一天一天地。',
     getStarted: '开始您的旅程',
 
     // How to Use Guide
@@ -399,23 +395,23 @@ export function LearnMore() {
       </header>
 
       {/* Why Haru Section */}
-      <section className="max-w-4xl mx-auto px-4 py-16 lg:py-24">
+      <section className="max-w-4xl mx-auto px-4 py-12 lg:py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h1 className="text-4xl lg:text-5xl text-gray-800 mb-12">
+          <h1 className="text-3xl lg:text-4xl text-gray-800 mb-8">
             {t.whyHaruTitle}
           </h1>
 
-          <div className="space-y-8 max-w-3xl mx-auto">
+          <div className="space-y-6 max-w-2xl mx-auto">
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-2xl text-gray-700 font-light"
+              className="text-xl text-gray-700 font-light"
             >
               {t.whyHaruDescription1}
             </motion.p>
@@ -424,7 +420,7 @@ export function LearnMore() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-xl text-gray-600 leading-relaxed"
+              className="text-lg text-gray-600 leading-relaxed"
             >
               {highlightHaru(t.whyHaruDescription2)}
             </motion.p>
@@ -433,21 +429,10 @@ export function LearnMore() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="my-12 py-8 border-t border-b border-pink-200"
+              className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 shadow-sm"
             >
-              <p className="text-xl text-gray-600 whitespace-pre-line">
-                {t.whyHaruDescription3}
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className="bg-white/50 backdrop-blur-sm rounded-3xl p-10 shadow-sm"
-            >
-              <p className="text-xl text-gray-700 whitespace-pre-line leading-relaxed">
-                {highlightHaru(t.whyHaruDescription4)}
+              <p className="text-base text-gray-700 leading-relaxed">
+                {highlightHaru(t.whyHaruDescription3)}
               </p>
             </motion.div>
           </div>
