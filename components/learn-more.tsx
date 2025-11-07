@@ -351,7 +351,7 @@ const ImagePlaceholder = ({ label, className = "" }: { label: string, className?
   </div>
 )
 
-export function WhyHaru() {
+export function LearnMore() {
   const [currentLanguage, setCurrentLanguage] = useState<Language>('en')
 
   // Load saved language preference on mount

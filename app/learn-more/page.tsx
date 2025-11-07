@@ -1,7 +1,7 @@
 'use client'
 
-import { WhyHaru } from '@/components/why-haru'
+import { LearnMore } from '@/components/learn-more'
 
 export default function LearnMorePage() {
-  return <WhyHaru />
+  return <LearnMore />
 }
