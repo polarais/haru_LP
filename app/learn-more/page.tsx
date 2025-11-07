@@ -2,6 +2,6 @@
 
 import { WhyHaru } from '@/components/why-haru'
 
-export default function WhyHaruPage() {
+export default function LearnMorePage() {
   return <WhyHaru />
 }

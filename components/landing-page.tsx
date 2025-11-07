@@ -704,8 +704,8 @@ export function LandingPage({ onGetStarted, onPrivacyPolicy, onTermsOfService, o
                 <ArrowRight className="w-4 h-4" />
               </button>
               
-              <button 
-                onClick={() => router.push('/why-haru')}
+              <button
+                onClick={() => router.push('/learn-more')}
                 className="flex items-center gap-2 px-8 py-3 bg-white text-gray-700 rounded-xl border border-gray-200 hover:bg-gray-50 transition-colors"
               >
                 <span>{t.learnMore}</span>
